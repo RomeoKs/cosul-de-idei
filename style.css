@@ -120,8 +120,7 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
     margin-right: 143px;
-    margin-top: 32px;
-    
+    margin-top: 32px; 
 }
 .navBar {
     width: 100%;
@@ -220,11 +219,20 @@ h1, h2 {
 		    DESKTOP 1440px
         ========================
 */
-@media (min-width:1360px) and (max-width:1441px) {
+@media (min-width:1280px) and (max-width:1440px) {
 .homepage {
-    width: 82%;
+    width: 80%;
     margin-left: 146px;
     margin-right: 140px;
 }
-
+.hero-image img {
+    margin-top: 6px;
+}
+.navMenu ul {
+    width: 574px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 143px;
+    margin-top: 32px; 
+}
 }
