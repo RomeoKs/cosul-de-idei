@@ -206,9 +206,9 @@ h1, h2 {
 		    DESKTOP 1920px
         ========================
 */
-@media (min-width:1425px) {
+@media (min-width:1441px) {
 .homepage {
-    width: 85.4%;
+    width: 86.7%;
     margin-left: 146px;
     margin-right: 140px;
 }
@@ -220,9 +220,9 @@ h1, h2 {
 		    DESKTOP 1440px
         ========================
 */
-@media (min-width:1424px) {
+@media (min-width:1360px) and (max-width:1441px) {
 .homepage {
-    width: 80%;
+    width: 82%;
     margin-left: 146px;
     margin-right: 140px;
 }
