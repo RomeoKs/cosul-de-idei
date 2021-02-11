@@ -89,135 +89,9 @@ html:focus-within {
 h1, h2 {
     font-family: 'Bree Serif', serif;
 }
-/* 		========================
-	      MAX to DESKTOP 1440px
-        ========================
-*/
-@media (max-width:1439px) {
 
 /* || NAVIGATION */
 
-.logo img {
-    width: 16.08vw;
-    display: flex;
-}
-.navMenu a {
-	text-decoration: none;
-	color: var(--green);
-}
-.navMenu { 
-    width: 39.957vw; /*50.5%*/ 
-	font-family: 'Bree Serif', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size:  1.64vw;
-    line-height: 2.21vw;
-}
-.navMenu ul {
-    display: flex;
-    justify-content: space-between;
-}
-.navElements {
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
-}
-.navBar {
-    width: 100%;
-    height: 9.38vh;
-    position: sticky;
-    background: var(--bk-menu);
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.14);
-    display: flex;
-}
-
-/* || MAIN CONTENT */
-
-.homepage {
-    width: 80%;
-    margin: auto;
-}
-.homepage-hero {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 3.82vh;
-}
-.homepage h1{
-    color: var(--green);
-    font-size: 3.02vw;
-    line-height: 3.58vw;/* or 113% */
-    letter-spacing: 0.01em;
-}
-.span1::after{
-    content: ",";
-    color: var(--red);
-    font-size: 3.02vw;
-    line-height: 3.37vw;/* or 113% */
-    letter-spacing: 0.01em;
-}
-.span1 {
-    font-size: 3.02vw;
-    line-height: 100.8%;
-    letter-spacing: 0.01em;
-    color: var(--red);
-}
-.homepage h2 {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-    font-size: 1.4vw;
-    color: var(--green);
-}
-.homepage h2::after{
-    content: ".";
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-    font-size: 2.0vw;
-    line-height: 2.768vw;
-    color: var(--green);
-}
-.cta-home {
-    width: 13.67vw;
-    height: 5.049vh;
-    background-color: var(--green);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
-    text-decoration: none;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 1;
-    font-size: 1.27vw;
-    line-height: 1.5.vw;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1px;
-}
-.hero-image img {
-    max-width: 40.3vw;
-    margin-top: 6px;
-}
-}
-/* 		===================================
-			  START OF MEDIA QUERIES*
-        ==================================
-*/
-/* /
-
-/* 		========================
-		    DESKTOP 1920px
-        ========================
-*/
-
-@media (min-width:1440px) {
-/* || NAVIGATION */
-body {
-    width: 1440px;
-    margin: auto;
-}
 .logo img {
     width: 229px;
     display: flex;
@@ -320,8 +194,35 @@ body {
 .hero-image img {
     margin-top: 6px;
 }
+/* 		===================================
+			  START OF MEDIA QUERIES*
+        ==================================
+*/
+/* /
 
-} 
+/* 		========================
+		    DESKTOP 1920px
+        ========================
+*/
+/*
+@media (min-width:1440px) {
+.homepage {
+    width: 70%;
+    margin: auto;
+}
+
+} */
 
 
+/* 		========================
+		    DESKTOP 1440px
+        ========================
+*/
+/*
+@media screen and (min-width:1281px) and (max-width:1439px) {
+    .homepage {
+        width: 80%;
+        margin: auto;
+    }
 
+}*/
