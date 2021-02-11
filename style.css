@@ -53,12 +53,27 @@ time, mark, audio, video {
 
 body {
     font-family: 'Rubik', sans-serif;
-    background-color: var(--bk);
-    background-image: url("./images/dot-grid.png");
+    /*background-color: var(--bk);
+    background: url("./images/dot-grid.png");
     background-repeat: repeat;
     mix-blend-mode: normal;
-    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
     font-size: 16px;
+}
+body::before {
+    content: "";
+    background-color: var(--bk);
+    background: url("./images/dot-grid.png");
+    background-repeat: repeat;
+    mix-blend-mode: normal;
+    z-index: -1;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
 }
 
 li {
@@ -125,11 +140,13 @@ h1, h2 {
     display: grid;
     grid-template-columns: 540px 580px;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 31px;
 }
 .homepage h1{
     color: var(--green);
     font-size: 43px;
-    line-height: 48px;/* or 113% */
+    line-height: 51px;/* or 113% */
     letter-spacing: 0.01em;
 }
 .span1::after{
@@ -149,7 +166,6 @@ h1, h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    line-height: 20px;
     color: var(--green);
 }
 .homepage h2::after{
@@ -157,7 +173,7 @@ h1, h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 41px;
     color: var(--green);
 }
 .cta-home {
@@ -174,7 +190,11 @@ h1, h2 {
     color: #FFFFFF;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    margin-top: 1px;
+}
+.hero-image img {
+    margin-top: 6px;
 }
 /* 		===================================
 			  START OF MEDIA QUERIES*
