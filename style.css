@@ -8,7 +8,6 @@
 /* || CSS reset */
 button {
     appearance: auto;
-    -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
     letter-spacing: normal;
     word-spacing: normal;
@@ -121,14 +120,11 @@ h1, h2 {
 }
 
 /* || MAIN CONTENT */
-.homepage {
-    width: 80%;
-    margin: auto;
-}
-.homepage-grid {
+
+.homepage-hero {
     display: grid;
-    grid-template-columns: 50% 50%;
-    margin: auto;
+    grid-template-columns: 540px 580px;
+    justify-content: space-between;
 }
 .homepage h1{
     color: var(--green);
@@ -164,26 +160,6 @@ h1, h2 {
     line-height: 20px;
     color: var(--green);
 }
-/*.cta-bt a {
-    width: 178px;
-    height: 41px;
-    background-color: var(--green);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 1;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    padding: 14px 11px;
-}/*
-/*.cta-bt {
-    margin-top: 8px;
-}*/
 .cta-home {
     width: 178px;
     height: 41px;
@@ -199,4 +175,36 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: center
+}
+/* 		===================================
+			  START OF MEDIA QUERIES*
+        ==================================
+*/
+/* /
+
+/* 		========================
+		    DESKTOP 1920px
+        ========================
+*/
+@media (min-width:1425px) {
+.homepage {
+    width: 85.4%;
+    margin-left: 146px;
+    margin-right: 140px;
+}
+
+}
+
+
+/* 		========================
+		    DESKTOP 1440px
+        ========================
+*/
+@media (min-width:1424px) {
+.homepage {
+    width: 80%;
+    margin-left: 146px;
+    margin-right: 140px;
+}
+
 }
