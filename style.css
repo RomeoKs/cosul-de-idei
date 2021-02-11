@@ -225,14 +225,5 @@ h1, h2 {
     margin-left: 146px;
     margin-right: 140px;
 }
-.hero-image img {
-    margin-top: 6px;
-}
-.navMenu ul {
-    width: 574px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 143px;
-    margin-top: 32px; 
-}
+
 }
