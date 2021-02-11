@@ -217,7 +217,7 @@ h1, h2 {
 @media (min-width:1440px) {
 /* || NAVIGATION */
 body {
-    width: 1440px;
+    max-width: 1440px;
     margin: auto;
 }
 .logo img {
@@ -257,6 +257,7 @@ body {
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.14);
     display: flex;
 }
+
 
 /* || MAIN CONTENT */
 
