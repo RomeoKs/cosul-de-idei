@@ -95,14 +95,13 @@ h1, h2 {
 .logo img {
     width: 229px;
     display: flex;
-    margin-left: 7.29vw;
-
 }
 .navMenu a {
 	text-decoration: none;
 	color: var(--green);
 }
-.navMenu {   
+.navMenu { 
+    width: 40vw;  
 	font-family: 'Bree Serif', serif;
     font-style: normal;
     font-weight: 400;
@@ -110,10 +109,15 @@ h1, h2 {
     line-height: 27px;
 }
 .navMenu ul {
-    width: 574px; /*! */
     display: flex;
     justify-content: space-between;
-    margin-right: 7.29vw;
+}
+.navElements {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
 }
 .navBar {
     width: 100%;
@@ -122,8 +126,6 @@ h1, h2 {
     background: var(--bk-menu);
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.14);
     display: flex;
-    align-items: center;
-    justify-content: space-between;   
 }
 
 /* || MAIN CONTENT */
@@ -190,6 +192,7 @@ h1, h2 {
     margin-top: 1px;
 }
 .hero-image img {
+    width: 39.46vw;
     margin-top: 6px;
 }
 /* 		===================================
@@ -202,25 +205,25 @@ h1, h2 {
 		    DESKTOP 1920px
         ========================
 */
-
+/*
 @media (min-width:1440px) {
 .homepage {
     width: 70%;
     margin: auto;
 }
 
-} 
+} */
 
 
 /* 		========================
 		    DESKTOP 1440px
         ========================
 */
-
+/*
 @media screen and (min-width:1281px) and (max-width:1439px) {
     .homepage {
         width: 80%;
         margin: auto;
     }
 
-}
+}*/
