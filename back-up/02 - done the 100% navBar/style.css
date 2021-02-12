@@ -1,0 +1,336 @@
+:root {
+    --green: #1F5924;
+    --bk: #E5E5E5;
+    --bk-menu: #F8FBF4;
+    --red: #D95736;
+
+}
+/* || CSS reset */
+button {
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 0em;
+    font: initial;
+    padding: 0px;
+    border: none;
+  
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* || General styles*/
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+body::before {
+    content: "";
+    background-color: var(--bk);
+    background: url("./images/dot-grid.png");
+    background-repeat: repeat;
+    mix-blend-mode: normal;
+    z-index: -1;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+}
+
+li {
+	list-style-type: none;
+}
+ul {
+	padding-left: 0px;
+}
+html {
+	box-sizing: border-box;
+	/* text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased; */
+	scroll-behavior: smooth;
+}
+html:focus-within {
+    scroll-behavior: smooth;
+}
+h1, h2 {
+    font-family: 'Bree Serif', serif;
+}
+/* 		========================
+	      MAX to DESKTOP 1440px
+        ========================
+*/
+@media (max-width:1439px) {
+
+/* || NAVIGATION */
+
+.logo img {
+    width: 16.08vw;
+    display: flex;
+}
+.navMenu a {
+	text-decoration: none;
+	color: var(--green);
+}
+.navMenu { 
+    width: 39.957vw; /*50.5%*/ 
+	font-family: 'Bree Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:  1.64vw;
+    line-height: 2.21vw;
+}
+.navMenu ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navElements {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.navBar {
+    width: 100%;
+    height: 6.19vw;
+    position: sticky;
+    -webkit-position: sticky;
+    top: 0;
+    background: var(--bk-menu);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.14);
+    display: flex;
+}
+
+/* || MAIN CONTENT */
+
+.homepage {
+    width: 80%;
+    margin: auto;
+}
+.homepage-hero {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.82vh;
+}
+.homepage h1{
+    color: var(--green);
+    font-size: 3.02vw;
+    line-height: 3.58vw;/* or 113% */
+    letter-spacing: 0.01em;
+}
+.span1::after{
+    content: ",";
+    color: var(--red);
+    font-size: 3.02vw;
+    line-height: 3.37vw;/* or 113% */
+    letter-spacing: 0.01em;
+}
+.span1 {
+    font-size: 3.02vw;
+    line-height: 100.8%;
+    letter-spacing: 0.01em;
+    color: var(--red);
+}
+.homepage h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 1.4vw;
+    color: var(--green);
+}
+.homepage h2::after{
+    content: ".";
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 2.0vw;
+    line-height: 2.768vw;
+    color: var(--green);
+}
+.cta-home {
+    width: 13.67vw;
+    height: 3.06vw;
+    background-color: var(--green);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1;
+    font-size: 1.27vw;
+    line-height: 1.5.vw;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+}
+.hero-image img {
+    max-width: 40.3vw;
+    margin-top: 6px;
+}
+}
+/* 		===================================
+			  START OF MEDIA QUERIES*
+        ==================================
+*/
+/* /
+
+/* 		========================
+		    DESKTOP 1920px
+        ========================
+*/
+
+@media (min-width:1440px) {
+/* || NAVIGATION */
+main {
+    max-width: 1440px;
+    margin: auto;
+}
+body {
+    max-width: 100%;
+    margin: auto;
+}
+.logo img {
+    width: 229px;
+    display: flex;
+}
+.navMenu a {
+	text-decoration: none;
+	color: var(--green);
+}
+.navMenu { 
+    width: 50.5%;  
+	font-family: 'Bree Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.navMenu ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navElements {
+    width: 1145px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.navBar {
+    max-width: 100%;
+    height: 9.28vh;
+    position: sticky;
+	-webkit-position: sticky;
+    top: 0;
+    background: var(--bk-menu);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.14);
+    display: flex;
+}
+
+
+/* || MAIN CONTENT */
+
+.homepage {
+    width: 80%;
+    margin: auto;
+}
+.homepage-hero {
+    display: grid;
+    grid-template-columns: 540px 580px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 31px;
+}
+.homepage h1{
+    color: var(--green);
+    font-size: 43px;
+    line-height: 51px;/* or 113% */
+    letter-spacing: 0.01em;
+}
+.span1::after{
+    content: ",";
+    color: var(--red);
+    font-size: 43px;
+    line-height: 48px;/* or 113% */
+    letter-spacing: 0.01em;
+}
+.span1 {
+    font-size: 43px;
+    line-height: 100.8%;
+    letter-spacing: 0.01em;
+    color: var(--red);
+}
+.homepage h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--green);
+}
+.homepage h2::after{
+    content: ".";
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 41px;
+    color: var(--green);
+}
+.cta-home {
+    width: 178px;
+    height: 41px;
+    background-color: var(--green);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+}
+.hero-image img {
+    margin-top: 6px;
+}
+
+} 
+
+
+
