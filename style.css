@@ -1,5 +1,6 @@
 :root {
     --green: #1F5924;
+    --dark-green: #1B414C;
     --bk: #E5E5E5;
     --bk-menu: #F8FBF4;
     --red: #D95736;
@@ -96,6 +97,7 @@ html:focus-within {
 h1, h2 {
     font-family: 'Bree Serif', serif;
 }
+
 /* 		========================
 	      MAX to DESKTOP 1440px
         ========================
@@ -204,6 +206,7 @@ h1, h2 {
     align-items: center;
     justify-content: center;
     margin-top: 1px;
+    border-radius: 2px;
 }
 .hero-image img {
     max-width: 40.3vw;
@@ -302,13 +305,13 @@ body {
     letter-spacing: 0.01em;
     color: var(--red);
 }
-.homepage h2 {
+.hero-text h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: var(--green);
 }
-.homepage h2::after{
+.hero-text h2::after{
     content: ".";
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
@@ -332,10 +335,66 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 29px;
+    border-radius: 2px;
 }
 .hero-image img {
     margin-top: -16px;
     margin-left: 53px;
+}
+/* || USER EXPERIENCE */
+h2 {
+    font-family:  'Bree Serif', serif;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0.02em;
+    color: var(--dark-green);
+}
+.user-exp {
+    margin-top: 80px;
+    margin: auto;
+    width: 100%;
+}
+.user-exp-team {
+    margin-top: -7px;
+    display: flex;
+    width: 100%;
+}
+.user-exp-text {
+    margin-top: 32px;
+    margin-left: 99px;
+    font-weight: 1;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--dark-green);
+}
+.user-exp-text span {
+    border-bottom: 2px solid var(--green);
+}
+.part-ux {
+    margin-top: 29px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 1;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.cta-exp {
+    width: 178px;
+    height: 41px;
+    background-color: var(--green);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    border-radius: 2px;
 }
 /* || FOOTER */
 .footBar {
