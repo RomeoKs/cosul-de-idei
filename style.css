@@ -52,7 +52,10 @@ time, mark, audio, video {
     text-decoration: none;
     color: inherit;
 }
-
+a {
+    text-decoration: none;
+    line-height: 0;
+}
 /* || General styles*/
 
 body {
@@ -278,12 +281,12 @@ body {
     grid-template-columns: 540px 580px;
     justify-content: space-between;
     align-items: center;
-    margin-top: 17px;
+    margin-top: 40px;
 }
 .homepage h1{
     color: var(--green);
     font-size: 43px;
-    line-height: 51px;/* or 113% */
+    line-height: 48.5px;/* or 113% */
     letter-spacing: 0.01em;
 }
 .span1::after{
@@ -328,7 +331,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1px;
+    margin-top: 29px;
 }
 .hero-image img {
     margin-top: -16px;
@@ -341,37 +344,54 @@ body {
     background: var(--bk-footer);
     box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.14);
     display: flex;
-    align-items: center;
 }
 .footContent {
     width: 80%;
-    max-height: 100px;
     margin: auto;
+    margin-top: 11px;
     display: flex;
     justify-content: space-between;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
     font-size: 14px;
     color: var(--txt-footer);
-
+}
+.footContent li {
+    transform: translateY(-7px);
 }
 h4 {
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     color: var(--ttl-footer);
 }
-.footServ {
-    grid-area: f1;
+.footServ, .footBlog,.footContact {
+    line-height: 1.8;
 }
-.footBlog {
-    grid-area: f2;
-}
+/* .footBlog {
+    
+} */
 .footContact {
-    grid-area: f3;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 58px;
+}
+.icon-email img {
+    width: 19px;
+    margin-right: 7px;
+    transform: translateY(3px);
+}
+.icon-fb img {
+    margin-right: 17px;
+    transform: translate(5px, 3px);
+}
+.icon-link img {
+    margin-right: 11px;
+    transform: translate(1px, 0px);
 }
 .footInfo {
     color: var(--codi-footer);
-    line-height: 17px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -388,9 +408,25 @@ h4 {
 }
 .footCodi {
     color: var(--codi-footer);
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
-
-
+.footCodi img {
+    transform: translate(20px, -7px);
+}
+.footInfo ul {
+    line-height: 1.8;
+    transform: translateX(25px);
+}
+.footCodi ul {
+    line-height: 1.9;
+}
+.footContact {
+    transform: translateX(55px);
+}
 
 } 
 
