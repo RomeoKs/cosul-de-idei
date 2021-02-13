@@ -3,6 +3,7 @@
     --bk: #E5E5E5;
     --bk-menu: #F8FBF4;
     --red: #D95736;
+    --bk-footer: #F2FCFF;
 
 }
 /* || CSS reset */
@@ -329,6 +330,42 @@ body {
 .hero-image img {
     margin-top: 6px;
 }
+/* || FOOTER */
+.footBar {
+    max-width: 100%;
+    height: 140px;
+    background: var(--bk-footer);
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.14);
+    display: flex;
+    align-items: center;
+}
+.footContent {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+    grid-template-areas: 
+    "f1 f1 f2 f2 f3 f3 f4 f4 f5 f5";
+
+}
+.footServ {
+    grid-area: f1;
+}
+.footBlog {
+    grid-area: f2;
+}
+.footContact {
+    grid-area: f3;
+}
+.footInfo {
+    grid-area: f4;
+}
+.footCodi {
+    grid-area: f5;
+}
+
+
 
 } 
 
