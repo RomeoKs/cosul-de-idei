@@ -426,7 +426,7 @@ body {
     justify-content: space-between;
 }
 .navElements {
-    width: 80%;
+    width: 1154px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -582,7 +582,7 @@ h2 {
     display: flex;
 }
 .footContent {
-    width: 60.147vw;
+    width: 1154px;
     margin: auto;
     margin-top: 11px;
     display: flex;
