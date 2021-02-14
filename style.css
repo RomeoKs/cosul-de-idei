@@ -210,7 +210,8 @@ h1, h2 {
 }
 .hero-image img {
     max-width: 40.3vw;
-    margin-top: 0.34vw;
+    margin-top: 0.83vw;
+    margin-left: 2.76vw;
 }
 
 /* || USER EXPERIENCE */
@@ -256,7 +257,7 @@ h1, h2 {
     font-style: normal;
     font-weight: bold;
     line-height: 1.25vw;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.0166vw;/*0.02em*/
 }
 .cta-exp {
     width: 10.4vw;
