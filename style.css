@@ -197,7 +197,6 @@ h1, h2 {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 1;
     font-size: 1.27vw;
     line-height: 1.5vw;
     letter-spacing: 0.05em;
@@ -205,7 +204,6 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1px;
     border-radius: 2px;
 }
 .hero-image img {
