@@ -77,7 +77,6 @@ body::before {
     width: 100%;
     height: 100%;
     opacity: 0.75;
-    height: 100%;
 }
 
 li {
@@ -216,15 +215,17 @@ h1, h2 {
 
 /* || USER EXPERIENCE */
 
-/* .user-exp h2 {
+.hero-ux img {
+    width: 17.65vw;
+}
+.user-exp h2 {
     font-family:  'Bree Serif', serif;
-    font-size: 3.74vw;
+    font-size: 1.66vw;
     line-height: 5.03vw;
     letter-spacing: 0.02em;
     color: var(--dark-green);
 }
 .user-exp {
-    margin-top: 9.36vw;
     margin: auto;
     width: 100%;
 }
@@ -233,51 +234,55 @@ h1, h2 {
     display: flex;
     width: 100%;
 }
-.user-exp-text {
+.user-exp-text p{
     margin-top: 3.74vw;
-    margin-left: 11.58vw;
-    font-weight: 1;
-    line-height: 2.8vw;
+    margin-left: 5.15vw;
+    line-height: 1.25vw;
     letter-spacing: 0.02em;
     color: var(--dark-green);
-    font-size: 1.87vw;
+    font-size: 0.83vw;
 }
 .user-exp-text span {
+    font-size: 0.83vw;
     border-bottom: 2px solid var(--green);
+}
+.team-ux {
+    font-size: 0.83vw;
 }
 .part-ux {
     margin-top: 3.4vw;
+    font-size: 0.83vw;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
-    font-weight: 1;
-    line-height: 2.8vw;
+    font-weight: bold;
+    line-height: 1.25vw;
     letter-spacing: 0.02em;
 }
 .cta-exp {
-    width: 23.4vw;
-    height: 3.06vw;
+    width: 10.4vw;
+    height: 2.187vw;
     background-color: var(--green);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 1;
-    font-size: 1.27vw;
+    font-size: 0.83vw;
     line-height: 1.5vw;
-    letter-spacing: 0.05em;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1px;
+    margin-top: 2.18vw;
+    margin-left: 11.58vw;
+    margin-bottom: 2.18vw;
     border-radius: 2px;
-} */
+}
 
 
 /* || FOOTER */
 
-/* .footBar {
+.footBar {
     max-width: 100%;
-    height: 14.6vh;
+    max-height: 14.6vh;
     background: var(--bk-footer);
     box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.14);
     display: flex;
@@ -290,19 +295,18 @@ h1, h2 {
     justify-content: space-between;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
-    font-size: 1.637vw;
+    font-size: 0.83vw;
     color: var(--txt-footer);
 }
 .footContent li {
     transform: translateY(-7px);
 }
 h4 {
-    font-size: 1.87vw;
     margin-bottom: 2.1vw;
     color: var(--ttl-footer);
 }
 .footServ, .footBlog,.footContact {
-    line-height: 1.8;
+    line-height: 1vw;/*?!*/
 }
 .footContact {
     display: flex;
@@ -310,19 +314,22 @@ h4 {
     align-items: baseline;
     justify-content: space-between;
     margin-left: 6.78vw;
+    font-size: 0.83vw;
 }
 .icon-email img {
-    width: 2.22vw;
+    width: 1.09vw;
     margin-right: 0.82vw;
     transform: translateY(0.35vw);
 }
 .icon-fb img {
+    width: 0.44vw;
     margin-right: 1.99vw;
     transform: translate(0.58vw, 0.35vw);
 }
 .icon-link img {
+    width: 0.78vw;
     margin-right: 1.28vw;
-    transform: translate(1px, 0px);
+    transform: translate(0.052vw, 0px);
 }
 .footInfo {
     color: var(--codi-footer);
@@ -332,11 +339,12 @@ h4 {
     justify-content: flex-end;
 }
 .icon-termeni img {
+    width: 1.04vw;
     margin-right: 0.82vw;
     transform: translateY(0.23vw);
 }
 .icon-anpc img {
-    width: 2.1vw;
+    width: 1.04vw;
     margin-right: 1.17vw;
     transform: translateY(0.47vw);
 }
@@ -349,6 +357,7 @@ h4 {
     justify-content: space-between;
 }
 .footCodi img {
+    width: 9.11vw;
     transform: translate(2.34vw, -0.82vw);
 }
 .footInfo ul {
@@ -360,7 +369,7 @@ h4 {
 }
 .footContact {
     transform: translateX(6.43vw);
-} */
+}
 
 }
 /* 		===================================
@@ -525,9 +534,9 @@ h2 {
 }
 .part-ux {
     margin-top: 29px;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
-    font-weight: 1;
+    font-weight: bold;
     line-height: 24px;
     letter-spacing: 0.02em;
 }
