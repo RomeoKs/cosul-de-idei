@@ -153,9 +153,9 @@ h1, h2 {
 .homepage-hero {
     display: grid;
     grid-template-columns: auto auto;
+    column-gap: 1.57vw;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3.82vh;
 }
 .homepage h1{
     color: var(--green);
@@ -197,31 +197,31 @@ h1, h2 {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-size: 1.27vw;
-    line-height: 1.5vw;
+    font-size: 1.11vw;
+    line-height: 1.32vw;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 2px;
+    margin-top: 2.2vw;
 }
 .hero-image img {
     max-width: 40.3vw;
     margin-top: 0.83vw;
-    margin-left: 2.76vw;
+    transform: translateX(3vw);
 }
 
 /* || USER EXPERIENCE */
 
 .hero-ux img {
-    width: 17.65vw;
+    width: 23.54vw;
 }
 .user-exp h2 {
     font-family:  'Bree Serif', serif;
-    font-size: 1.66vw;
-    line-height: 5.03vw;
-    letter-spacing: 0.02em;
+    font-size: 2.22vw;
+    letter-spacing: 0.0166vw;
     color: var(--dark-green);
 }
 .user-exp {
@@ -229,50 +229,47 @@ h1, h2 {
     width: 100%;
 }
 .user-exp-team {
-    margin-top: -0.82vw;
     display: flex;
     width: 100%;
 }
-.user-exp-text p{
-    margin-top: 3.74vw;
+.user-exp-text {
+    margin-top: 5.0vw;
     margin-left: 5.15vw;
-    line-height: 1.25vw;
-    letter-spacing: 0.02em;
+    line-height: 1.66vw;
+    letter-spacing: 0.0166vw;
     color: var(--dark-green);
-    font-size: 0.83vw;
+    font-size: 1.11vw;
 }
 .user-exp-text span {
-    font-size: 0.83vw;
+    font-size: 1.11vw;
     border-bottom: 2px solid var(--green);
 }
 .team-ux {
-    font-size: 0.83vw;
+    font-size: 1.11vw;
 }
 .part-ux {
-    margin-top: 3.4vw;
-    font-size: 0.83vw;
+    font-size: 1.11vw;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: bold;
-    line-height: 1.25vw;
+    line-height: 1.66vw;
     letter-spacing: 0.0166vw;/*0.02em*/
+    margin-top: 2.18vw;
 }
 .cta-exp {
-    width: 10.4vw;
-    height: 2.187vw;
+    width: 13.88vw;
+    height: 3.06vw;
     background-color: var(--green);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-size: 0.83vw;
-    line-height: 1.5vw;
+    font-size: 1.11vw;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2.18vw;
-    margin-left: 11.58vw;
     margin-bottom: 2.18vw;
+    margin-top: 2.18vw;
     border-radius: 2px;
 }
 
@@ -496,6 +493,7 @@ body {
     border-radius: 2px;
 }
 .hero-image img {
+    max-width:570px;
     margin-top: -16px;
     margin-left: 53px;
 }
@@ -521,7 +519,7 @@ h2 {
     width: 100%;
 }
 .user-exp-text {
-    margin-top: 32px;
+    margin-top: 71px;
     margin-left: 99px;
     font-weight: 1;
     line-height: 24px;
