@@ -64,6 +64,7 @@ body {
     font-size: 16px;
     background-color: var(--bk);
     background: url("./images/dot-grid-op75.png");
+    background-size: 27.77vw;
     background-repeat: repeat;
     mix-blend-mode: normal;
     z-index: -1;
