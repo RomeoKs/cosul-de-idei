@@ -148,7 +148,7 @@ h1, h2 {
 .navBar {
     width: 100%;
     height: 6.25vw;
-    position: sticky;
+    position: fixed;
 	position: -webkit-sticky;
     top: 0;
     background: var(--bk-menu);
@@ -435,7 +435,7 @@ body {
 .navBar {
     width: 100%;
     height: 90px;
-    position: sticky;
+    position: fixed;
 	position: -webkit-sticky;
     top: 0;
     background: var(--bk-menu);
