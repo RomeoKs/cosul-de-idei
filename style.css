@@ -1,5 +1,6 @@
 :root {
     --green: #1F5924;
+    --light-green: #99E9A0;
     --dark-green: #1B414C;
     --bk: #E5E5E5;
     --bk-menu: #F8FBF4;
@@ -112,6 +113,7 @@ html:focus-within {
 }
 h1, h2 {
     font-family: 'Bree Serif', serif;
+    color: var(--dark-green);
 }
 
 /* 		===================================
@@ -404,7 +406,9 @@ h4 {
 */
 
 @media (min-width:1440px) {
-/* || NAVIGATION */
+
+/*----- NAVIGATION -----*/
+
 header {
     margin-bottom: 120px;
 }
@@ -457,7 +461,10 @@ body {
 }
 
 
-/* || MAIN CONTENT */
+/*----- MAIN CONTENT -----*/
+
+
+/*----- HOME PAGE -----*/
 
 .homepage {
     width: 80%;
@@ -504,89 +511,272 @@ body {
     color: var(--green);
 }
 .cta-home {
-    width: 178px;
-    height: 41px;
+    width: 221px;
+    height: 42px;
     background-color: var(--green);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
     font-weight: 1;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 24px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 29px;
+    margin-top: 23px;
     border-radius: 2px;
 }
 .hero-image img {
     max-width:570px;
     margin-top: 12px;
-    margin-left: 53px;
+    margin-left: 35px;
 }
 
+/*----- USER EXPERIENCE -----*/
 
-/* || USER EXPERIENCE */
 
 h3 {
     font-family:  'Bree Serif', serif;
-    font-size: 32px;
+    font-size: 36px;
     line-height: 43px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.8788px;
     color: var(--dark-green);
+    margin-top: 73px;
 }
 .user-exp {
-    margin-top: 80px;
     margin: auto;
     width: 100%;
 }
-.user-exp-team {
-    margin-top: -7px;
+.user-exp-tech {
     display: flex;
     width: 100%;
 }
-.user-exp-text {
-    margin-top: 71px;
-    margin-left: 99px;
-    font-weight: 1;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--dark-green);
+.bold {
+    font-weight: bold;
 }
-.user-exp-text span {
-    border-bottom: 2px solid var(--green);
+.hero-ux img {
+    width: 495px;
+    margin-top: 16px;
+    margin-left: -6px;
 }
-.part-ux {
-    margin-top: 29px;
+
+.user-tech-text {
+    width: 550px;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
+    font-weight: 1;
+    font-size: 20px;
+    line-height: 30px;/* or 150% */
+    letter-spacing: 0.01em;
+    margin-top: 96px;
+    margin-left: 120px;
+    color: var(--dark-green);
+}
+.user-tech-text p:nth-of-type(2n+2), .user-tech-text p:nth-of-type(2n+1) {
+    margin-bottom: 12px;
+}
+
+
+/*----- TEAM CODI -----*/
+
+.team_codi {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 534px 496px;
+    column-gap: 115px;
+    margin-top: 70px;
+    color: var(--dark-green);
+}
+.team_codi h2 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: -12px;
+    letter-spacing: 0.5px;
+}
+.hero-team img {
+    width: 496px;
+    margin-left: 5px;
+}
+.team-ux span {
+    border-bottom: 2px solid var(--green);
     font-weight: bold;
-    line-height: 24px;
+}
+.team-ux {
+    font-size: 20px;
+    line-height: 30px;/* or 150% */
     letter-spacing: 0.02em;
 }
-.cta-exp {
-    width: 178px;
-    height: 41px;
+.logo-team-codi img{
+    width: 251px;
+    transform: translateY(10px);
+}
+.team-romeo img, .team-tibi img {
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid var(--light-green);
+    display: block;
+}
+.team-romeo, .team-tibi {
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    height: 92px;
+    row-gap: 9px;
+}
+.team-algorithm {
+    font-size: 15px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 45px;
+}
+.cta-team {
+    width: 175px;
+    height: 42px;
     background-color: var(--green);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
     font-weight: 1;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 24px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 36px;
+    margin-top: 30px;
     border-radius: 2px;
 }
 
+/*----- SERVICII -----*/
 
-/* || FOOTER */
+.servicii {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.servicii h2 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: -12px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 112px;
+    margin-bottom: 12px;
+}
+.servicii-flex {
+    width: 1026px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.ux-design img {
+    width: 201px;
+}
+.front-end img {
+    width: 356px;
+}
+.seo-serv img {
+    width: 215px;
+}
+.servicii-txt {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: var(--dark-green);
+    line-height: 30px;/* or 150% */
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+}
+
+.cta-serv {
+    width: 221px;
+    height: 42px;
+    background-color: var(--green);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin: auto;
+    transform: translateX(10px);
+}
+
+/*----- DESIGN THINKING -----*/
+.how-we-think h2 {
+    font-size: 36px;
+    line-height: 49px;
+    margin-top: -12px;
+    letter-spacing: 0.5px;
+    margin-bottom: 32px;
+}
+.how-we-think p:nth-of-type(2n+2), .how-we-think p:nth-of-type(2n+1) {
+    margin-bottom: 12px;
+}
+.how-we-think p {
+    font-weight: 1;
+    font-size: 20px;
+    line-height: 30px;/* or 150% */
+    letter-spacing: 0.01em;
+    color: var(--dark-green);
+    text-align: left;
+}
+.design-think img {
+    width: 498px;
+}
+.design-think {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 578px 498px;
+    gap: 71px;
+    margin-top: 112px;
+}
+.how-we-think {
+    display: flex;
+    flex-direction: column;
+    margin-top: 86px;
+}
+.cta-think {
+    width: 180px;
+    height: 42px;
+    background-color: var(--green);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-top: 17px;
+    margin-bottom: 112px;
+}
+
+
+
+/*----- FOOTER -----*/
 .footBar {
     max-width: 100%;
     height: 140px;
