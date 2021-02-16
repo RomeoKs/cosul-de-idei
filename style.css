@@ -166,7 +166,7 @@ header {
 	/* position: -webkit-sticky; */
     top: 0;
     background: var(--bk-menu);
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 2px 0.5559vw rgba(0, 0, 0, 0.14);
     display: flex;
     z-index: 2;
 }
@@ -184,26 +184,26 @@ header {
 }
 .homepage-hero {
     display: grid;
-    grid-template-columns: 540px 580px;
+    grid-template-columns: 37.526vw 40.305vw;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 2.779vw;
 }
 .homepage h1{
     color: var(--green);
-    font-size: 43px;
-    line-height: 48.5px;/* or 113% */
+    font-size: 2.988vw;
+    line-height: 3.37vw;/* or 113% */
     letter-spacing: 0.01em;
 }
 .span1::after{
     content: ",";
     color: var(--red);
-    font-size: 43px;
-    line-height: 48px;/* or 113% */
+    font-size: 2.988vw;
+    line-height: 3.335vw;/* or 113% */
     letter-spacing: 0.01em;
 }
 .span1 {
-    font-size: 43px;
+    font-size: 2.988vw;
     line-height: 100.8%;
     letter-spacing: 0.01em;
     color: var(--red);
@@ -211,39 +211,38 @@ header {
 .hero-text h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.389vw;
     color: var(--green);
 }
 .hero-text h2::after{
     content: ".";
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
-    font-size: 20px;
-    line-height: 41px;
+    font-size: 1.389vw;
+    line-height: 2.849vw;
     color: var(--green);
 }
 .cta-home {
-    width: 221px;
-    height: 42px;
+    width: 15.3578vw;
+    height: 2.918vw;
     background-color: var(--green);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 1;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.389vw;
+    line-height: 1.6678vw;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 23px;
+    margin-top: 1.598vw;
     border-radius: 2px;
 }
 .hero-image img {
-    max-width:570px;
-    margin-top: 12px;
-    margin-left: 35px;
+    max-width: 39.61vw;
+    margin-top: 0.8339vw;
+    margin-left: 2.432vw;
 }
 
 /*----- USER EXPERIENCE -----*/
@@ -251,11 +250,11 @@ header {
 
 h3 {
     font-family:  'Bree Serif', serif;
-    font-size: 36px;
-    line-height: 43px;
-    letter-spacing: 0.8788px;
+    font-size: 2.50vw;
+    line-height: 2.988vw;
+    letter-spacing: 0.061vw;
     color: var(--dark-green);
-    margin-top: 73px;
+    margin-top: 5.073vw;
 }
 .user-exp {
     margin: auto;
@@ -269,25 +268,25 @@ h3 {
     font-weight: bold;
 }
 .hero-ux img {
-    width: 495px;
-    margin-top: 16px;
-    margin-left: -6px;
+    width: 34.398vw;
+    margin-top: 1.1118vw;
+    margin-left: -0.4169vw;
 }
 
 .user-tech-text {
-    width: 550px;
+    width: 38.22vw;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 1;
-    font-size: 20px;
-    line-height: 30px;/* or 150% */
+    font-size: 1.389vw;
+    line-height: 2.0847vw;/* or 150% */
     letter-spacing: 0.01em;
-    margin-top: 96px;
-    margin-left: 120px;
+    margin-top: 6.671vw;
+    margin-left: 8.339vw;
     color: var(--dark-green);
 }
 .user-tech-text p:nth-of-type(2n+2), .user-tech-text p:nth-of-type(2n+1) {
-    margin-bottom: 12px;
+    margin-bottom: 0.8339vw;
 }
 
 
@@ -296,36 +295,36 @@ h3 {
 .team_codi {
     width: 100%;
     display: grid;
-    grid-template-columns: 534px 496px;
-    column-gap: 115px;
-    margin-top: 70px;
+    grid-template-columns: 37.109vw 34.468vw;
+    column-gap: 7.99vw;
+    margin-top: 4.86vw;
     color: var(--dark-green);
 }
 .team_codi h2 {
-    font-size: 36px;
-    line-height: 36px;
-    margin-top: -12px;
-    letter-spacing: 0.5px;
+    font-size: 2.50vw;
+    line-height: 2.50vw;
+    margin-top: -0.8339vw;
+    letter-spacing: 0.0347vw;
 }
 .hero-team img {
-    width: 496px;
-    margin-left: 5px;
+    width: 34.468vw;
+    margin-left: 0.347vw;
 }
 .team-ux span {
-    border-bottom: 2px solid var(--green);
+    border-bottom: 0.1389vw solid var(--green);
     font-weight: bold;
 }
 .team-ux {
-    font-size: 20px;
-    line-height: 30px;/* or 150% */
+    font-size: 1.389vw;
+    line-height: 2.0847vw;/* or 150% */
     letter-spacing: 0.02em;
 }
 .logo-team-codi img{
-    width: 251px;
-    transform: translateY(10px);
+    width: 17.44vw;
+    transform: translateY(0.6949vw);
 }
 .team-romeo img, .team-tibi img {
-    width: 52px;
+    width: 3.613vw;
     border-radius: 50%;
     border: 2px solid var(--light-green);
     display: block;
@@ -335,37 +334,42 @@ h3 {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     justify-items: center;
-    height: 92px;
-    row-gap: 9px;
+    height: 6.393vw;
+    row-gap: 0.625vw;
 }
 .team-algorithm {
-    font-size: 15px;
+    font-size: 1.042vw;
     display: flex;
     align-items: baseline;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 32px;
-    margin-bottom: 45px;
+    margin-top: 2.223vw;
+    margin-bottom: 3.127vw;
 }
 .cta-team {
-    width: 175px;
-    height: 42px;
+    width: 12.16vw;
+    height:2.918vw;
     background-color: var(--green);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
     font-weight: 1;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.389vw;
+    line-height:1.6678vw;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 2.0847vw;
     border-radius: 2px;
 }
-
+.plus img {
+    width: 0.903vw;
+}
+.equal img {
+    width: 1.181vw;
+}
 /*----- SERVICII -----*/
 
 .servicii {
@@ -375,52 +379,52 @@ h3 {
     flex-direction: column;
 }
 .servicii h2 {
-    font-size: 36px;
-    line-height: 36px;
-    margin-top: -12px;
+    font-size: 2.50vw;
+    line-height: 2.50vw;
+    margin-top:  -0.8339vw;
     letter-spacing: 0.5px;
     text-align: center;
-    margin-top: 112px;
-    margin-bottom: 12px;
+    margin-top: 7.783vw;
+    margin-bottom:0.8339vw;
 }
 .servicii-flex {
-    width: 1026px;
+    width: 71.299vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
 .ux-design img {
-    width: 201px;
+    width: 13.968vw;
 }
 .front-end img {
-    width: 356px;
+    width: 24.739vw;
 }
 .seo-serv img {
-    width: 215px;
+    width: 14.94vw;
 }
 .servicii-txt {
     width: 100%;
     text-align: center;
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 1.389vw;
     color: var(--dark-green);
-    line-height: 30px;/* or 150% */
+    line-height: 2.0847vw;/* or 150% */
     letter-spacing: 0.01em;
-    margin-bottom: 30px;
+    margin-bottom: 2.0847vw;
 }
 
 .cta-serv {
-    width: 221px;
-    height: 42px;
+    width: 15.357vw;
+    height:2.918vw;
     background-color: var(--green);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
     font-weight: 1;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.389vw;
+    line-height:1.6678vw;
     letter-spacing: 0.01em;
     color: #FFFFFF;
     display: flex;
@@ -434,57 +438,57 @@ h3 {
 /*----- DESIGN THINKING -----*/
 
 .how-we-think h2 {
-    font-size: 36px;
-    line-height: 49px;
-    margin-top: -12px;
+    font-size: 2.50vw;
+    line-height: 3.4vw;
+    margin-top:  -0.8339vw;
     letter-spacing: 0.5px;
-    margin-bottom: 32px;
+    margin-bottom: 2.223vw;
 }
 .how-we-think p:nth-of-type(2n+2), .how-we-think p:nth-of-type(2n+1) {
-    margin-bottom: 12px;
+    margin-bottom:0.8339vw;
 }
 .how-we-think p {
     font-weight: 1;
-    font-size: 20px;
-    line-height: 30px;/* or 150% */
+    font-size: 1.389vw;
+    line-height: 2.0847vw;/* or 150% */
     letter-spacing: 0.01em;
     color: var(--dark-green);
     text-align: left;
 }
 .design-think img {
-    width: 498px;
+    width: 34.6vw;
 }
 .design-think {
     width: 100%;
     margin: auto;
     display: grid;
-    grid-template-columns: 578px 498px;
-    gap: 71px;
-    margin-top: 112px;
+    grid-template-columns: 40.1667vw 34.6vw;
+    gap: 4.93vw;
+    margin-top: 7.78vw;
 }
 .how-we-think {
     display: flex;
     flex-direction: column;
-    margin-top: 86px;
+    margin-top: 5.976vw;
 }
 .cta-think {
-    width: 180px;
-    height: 42px;
+    width: 12.5086vw;
+    height:2.918vw;
     background-color: var(--green);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
     font-weight: 1;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.389vw;
+    line-height:1.6678vw;
     letter-spacing: 0.01em;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 2px;
-    margin-top: 17px;
-    margin-bottom: 112px;
+    margin-top: 1.18vw;
+    margin-bottom: 7.783vw;
 }
 
 
@@ -492,81 +496,83 @@ h3 {
 /*----- FOOTER -----*/
 .footBar {
     max-width: 100%;
-    height: 180px;
+    height: 12.508vw;
     background: var(--bk-footer);
-    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px -2px 0.5559vw rgba(0, 0, 0, 0.14);
     display: flex;
 }
 .footContent {
-    width: 1154px;
+    width: 80.1945vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 1;
-    font-size: 15px;
+    font-size: 1.042vw;
     
     text-align: left;
     letter-spacing: 0.01em; 
     color: var(--txt-footer);
 }
 .footContent li {
-    line-height: 35px;
+    line-height: 2.432vw;
 }
 h4 {
-    font-size: 20px;
+    font-size: 1.389vw;
     color: var(--ttl-footer);
-    margin-bottom: 15px;
-    margin-top: 21px;
+    margin-bottom: 1.042vw;
+    margin-top: 1.459vw;
 }
 
 .footContact {
-    height: 80px;
+    height: 5.559vw;
     display: flex;
     flex-direction: column;
     align-items: baseline;
     justify-content: space-between;
 }
 .icon-email img {
-    width: 19px;
-    margin-right: 7px;
-    transform: translateY(3px);
+    width: 1.32vw;
+    margin-right: 0.486vw;
+    transform: translateY(0.208vw);
 }
 .icon-fb img {
-    margin-right: 17px;
-    transform: translate(5px, 3px);
+    width: 0.588vw;/*8.47px;*/
+    margin-right: 1.18vw;
+    transform: translate(0.347vw, 0.208vw);
 }
 .icon-link img {
-    margin-right: 11px;
+    width: 1.0423vw; /*15px*/
+    margin-right: 0.764vw;
     transform: translate(1px, 0px);
 }
 .icon-termeni img {
-    width: 20px;
-    margin-right: 7px;
+    width: 1.389vw;
+    margin-right: 0.486vw;
     transform: translateY(2px);
 }
 .icon-anpc img {
-    width: 16px;
-    margin-right: 10px;
-    transform: translateY(4px);
+    width: 1.1118vw;
+    margin-right: 0.6949vw;
+    transform: translateY(0.277vw);
 }
 .footCodi {
     color: var(--codi-footer);
     text-align: right;
-    margin-top: 22px;
+    margin-top: 1.528vw;
 }
 .footCodi li {
-    line-height: 25px;
+    line-height: 1.73vw;
 }
 .logo-footer-codi img  {
-    width: 238px;
+    width: 16.539vw;
     
 }
 
 }
 
-
+ 
 /* 		========================
 		    DESKTOP 1920px
         ========================
@@ -822,7 +828,12 @@ h3 {
     margin-top: 30px;
     border-radius: 2px;
 }
-
+.equal img {
+    width: 17px;
+}
+.plus img {
+    width: 13px;
+}
 /*----- SERVICII -----*/
 
 .servicii {
@@ -993,10 +1004,12 @@ h4 {
     transform: translateY(3px);
 }
 .icon-fb img {
+    width: 8.47px;
     margin-right: 17px;
     transform: translate(5px, 3px);
 }
 .icon-link img {
+    width: 15px;
     margin-right: 11px;
     transform: translate(1px, 0px);
 }
@@ -1024,7 +1037,6 @@ h4 {
 }
 
 
-} 
-
+}
 
 
