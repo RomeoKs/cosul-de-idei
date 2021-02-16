@@ -300,9 +300,9 @@ h3 {
     margin-top: 4.86vw;
     color: var(--dark-green);
 }
-.team_codi_text h2 {
-    font-size: 2.5vw;
-    line-height: 2.5vw;
+.team_codi h2 {
+    font-size: 2.50vw;
+    line-height: 2.50vw;
     margin-top: -0.8339vw;
     letter-spacing: 0.0347vw;
 }
@@ -311,8 +311,7 @@ h3 {
     margin-left: 0.347vw;
 }
 .team-ux span {
-    font-size: 1.389vw;
-    border-bottom: 2px solid var(--green);
+    border-bottom: 0.1389vw solid var(--green);
     font-weight: bold;
 }
 .team-ux {
@@ -324,9 +323,8 @@ h3 {
     width: 17.44vw;
     transform: translateY(0.6949vw);
 }
-
 .team-romeo img, .team-tibi img {
-    width: 3.6136vw;
+    width: 3.613vw;
     border-radius: 50%;
     border: 2px solid var(--light-green);
     display: block;
@@ -340,24 +338,24 @@ h3 {
     row-gap: 0.625vw;
 }
 .team-algorithm {
-    font-size: 1.0423vw;
+    font-size: 1.042vw;
     display: flex;
     align-items: baseline;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 2.2237vw;
-    margin-bottom:3.127vw;
+    margin-top: 2.223vw;
+    margin-bottom: 3.127vw;
 }
 .cta-team {
-    width: 12.161vw;
-    height: 2.9186vw;
+    width: 12.16vw;
+    height:2.918vw;
     background-color: var(--green);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
     font-weight: 1;
     font-size: 1.389vw;
-    line-height: 1.6678vw;
+    line-height:1.6678vw;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     display: flex;
@@ -366,11 +364,11 @@ h3 {
     margin-top: 2.0847vw;
     border-radius: 2px;
 }
-.equal img {
-    width: 1.181vw;
-}
 .plus img {
     width: 0.903vw;
+}
+.equal img {
+    width: 1.181vw;
 }
 /*----- SERVICII -----*/
 
@@ -789,7 +787,6 @@ h3 {
     width: 251px;
     transform: translateY(10px);
 }
-
 .team-romeo img, .team-tibi img {
     width: 52px;
     border-radius: 50%;
