@@ -191,6 +191,7 @@ header {
 .homepage h1{
     color: var(--green);
     font-size: 2.988vw;
+    font-weight: 400;
     line-height: 3.37vw;/* or 113% */
     letter-spacing: 0.01em;
 }
@@ -228,6 +229,7 @@ header {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
+    font-weight: 400;
     font-size: 1.389vw;
     line-height: 1.6678vw;
     letter-spacing: 0.05em;
@@ -253,6 +255,7 @@ header {
 h3 {
     font-family:  'Bree Serif', serif;
     font-size: 2.50vw;
+    font-weight: 400;
     line-height: 2.988vw;
     letter-spacing: 0.0215vw;
     color: var(--dark-green);
@@ -279,7 +282,7 @@ h3 {
     width: 38.22vw;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
-    font-weight: 1;
+    font-weight: 400;
     font-size: 1.389vw;
     line-height: 2.0847vw;/* or 150% */
     letter-spacing: 0.01em;
@@ -307,6 +310,7 @@ h3 {
 }
 .team_codi_text h2 {
     font-size: 2.5vw;
+    font-weight: 300;
     line-height: 2.5vw;
     margin-top: -0.8339vw;
     letter-spacing: 0.0347vw;
@@ -322,6 +326,7 @@ h3 {
 }
 .team-ux {
     font-size: 1.389vw;
+    font-weight: normal;
     line-height: 2.0847vw;/* or 150% */
     letter-spacing: 0.02em;
 }
@@ -360,7 +365,6 @@ h3 {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 1;
     font-size: 1.389vw;
     line-height: 1.6678vw;
     letter-spacing: 0.05em;
@@ -387,6 +391,7 @@ h3 {
 }
 .servicii h2 {
     font-size: 2.50vw;
+    font-weight: 400;
     line-height: 2.50vw;
     margin-top:  -0.8339vw;
     letter-spacing: 0.5px;
@@ -416,6 +421,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     font-size: 1.389vw;
+    font-weight: normal;
     color: var(--dark-green);
     line-height: 2.0847vw;/* or 150% */
     letter-spacing: 0.01em;
@@ -729,6 +735,7 @@ body {
 h3 {
     font-family:  'Bree Serif', serif;
     font-size: 36px;
+    font-weight: 400;
     line-height: 43px;
     letter-spacing: 0.8788px;
     color: var(--dark-green);
@@ -786,6 +793,7 @@ h3 {
 }
 .team_codi h2 {
     font-size: 36px;
+    font-weight: 300;
     line-height: 36px;
     margin-top: -12px;
     letter-spacing: 0.5px;
@@ -800,6 +808,7 @@ h3 {
 }
 .team-ux {
     font-size: 20px;
+    font-weight: normal;
     line-height: 30px;/* or 150% */
     letter-spacing: 0.02em;
 }
@@ -838,7 +847,6 @@ h3 {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 1;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.05em;
