@@ -333,7 +333,7 @@ h3 {
 .team-romeo img, .team-tibi img {
     width: 3.6136vw;
     border-radius: 50%;
-    border: 2px solid var(--light-green);
+    border: 1px solid var(--light-green);
     display: block;
 }
 .team-romeo, .team-tibi {
@@ -738,7 +738,7 @@ h3 {
     width: 100%;
 }
 .bold {
-    font-weight: bold;
+    font-weight: 500;
 }
 .hero-ux img {
     width: 495px;
@@ -750,7 +750,7 @@ h3 {
     width: 550px;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
-    font-weight: 1;
+    font-weight: 400;
     font-size: 20px;
     line-height: 30px;/* or 150% */
     letter-spacing: 0.01em;
@@ -806,7 +806,7 @@ h3 {
 .team-romeo img, .team-tibi img {
     width: 52px;
     border-radius: 50%;
-    border: 2px solid var(--light-green);
+    border: 1px solid var(--light-green);
     display: block;
 }
 .team-romeo, .team-tibi {
