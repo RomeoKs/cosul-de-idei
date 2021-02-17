@@ -183,8 +183,7 @@ header {
     margin: auto;
 }
 .homepage-hero {
-    display: grid;
-    grid-template-columns: 37.526vw 40.305vw;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 2.779vw;
@@ -241,8 +240,11 @@ header {
 }
 .hero-image img {
     max-width: 39.61vw;
-    margin-top: 0.8339vw;
-    margin-left: 2.432vw;
+    transform: translateX(1.6678vw);
+}
+.hero-text {
+    max-width: 35.58vw;
+    transform: translateY(1.181vw);
 }
 
 /*----- USER EXPERIENCE -----*/
@@ -252,7 +254,7 @@ h3 {
     font-family:  'Bree Serif', serif;
     font-size: 2.50vw;
     line-height: 2.988vw;
-    letter-spacing: 0.061vw;
+    letter-spacing: 0.0215vw;
     color: var(--dark-green);
     margin-top: 5.073vw;
 }
@@ -294,11 +296,13 @@ h3 {
 
 .team_codi {
     width: 100%;
-    display: grid;
-    grid-template-columns: 37.109vw 34.468vw;
-    column-gap: 7.99vw;
-    margin-top: 4.86vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: var(--dark-green);
+}
+.team_codi_text {
+    max-width: 37.317vw;
 }
 .team_codi_text h2 {
     font-size: 2.5vw;
@@ -648,11 +652,10 @@ body {
     margin: auto;
 }
 .homepage-hero {
-    display: grid;
-    grid-template-columns: 540px 580px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 40px;/*changed*/
 }
 .homepage h1{
     color: var(--green);
@@ -707,8 +710,11 @@ body {
 }
 .hero-image img {
     max-width:570px;
-    margin-top: 12px;
-    margin-left: 35px;
+    transform: translateX(24px);
+}
+.hero-text {
+    max-width: 512px;
+    transform: translateY(17px);
 }
 
 /*----- USER EXPERIENCE -----*/
@@ -760,11 +766,16 @@ h3 {
 
 .team_codi {
     width: 100%;
-    display: grid;
-    grid-template-columns: 534px 496px;
-    column-gap: 115px;
-    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: var(--dark-green);
+}
+.team_codi_text {
+    max-width: 537px;
+}
+.team_codi_text {
+    max-width: 537px;
 }
 .team_codi h2 {
     font-size: 36px;
