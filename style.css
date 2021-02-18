@@ -115,6 +115,10 @@ h1, h2 {
     font-family: 'Bree Serif', serif;
     color: var(--dark-green);
 }
+.bold {
+    font-weight: bold;
+}
+
 
 /* 		===================================
 			  START OF MEDIA QUERIES*
@@ -268,9 +272,6 @@ h3 {
 .user-exp-tech {
     display: flex;
     width: 100%;
-}
-.bold {
-    font-weight: bold;
 }
 .hero-ux img {
     width: 34.398vw;
