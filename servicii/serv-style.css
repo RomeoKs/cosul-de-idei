@@ -373,7 +373,7 @@ body {
 .proiect-ux-text {
     max-width: 572px;
 }
-.ux-design p:nth-of-type(2n+2), .ux-design p:nth-of-type(2n+1) {
+.servpage p:nth-of-type(2n+2), .servpage p:nth-of-type(2n+1) {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -384,8 +384,7 @@ body {
     color: var(--p-text);
     margin-bottom: 19px;
 }
-.ux-design h2 {
-    max-width: 574px;
+.servpage h2 {
     font-family: 'Bree Serif', serif;
     font-size: 36px;
     font-style: normal;
@@ -438,6 +437,40 @@ body {
 }
 .red {
     color: var(--red);
+}
+.benefits-title {
+    font-family: 'Rubik', sans-serif;   
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--p-text);
+    margin-bottom: 29px;
+    margin-top: 48px;
+}
+.benefits-text p:nth-of-type(2n+2), .benefits-text p:nth-of-type(2n+1) {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--p-text);
+    margin-bottom: 24px;
+}
+.benefits-text {
+    display: grid;
+    grid-template-columns: 520px 520px;
+    column-gap: 110px;
+}
+.t5 {
+    margin-top: 96px;
+}
+.t6 {
+    margin-top: 129px;
 }
 /*----- FOOTER -----*/
 .footBar {
