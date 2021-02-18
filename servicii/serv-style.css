@@ -11,6 +11,7 @@
     --txt-footer: #466770;
     --codi-footer: #7FA082;
     --txt-title: #466770;
+    --txt-normal: #1B414C;
 
 }
 /* || CSS reset */
@@ -119,6 +120,9 @@ h1, h2 {
 }
 .bold {
     font-weight: bold;
+}
+p {
+    color: var(--txt-normal);
 }
 
 
@@ -358,6 +362,7 @@ body {
 .servpage {
     width: 80%;
     margin: auto;
+    margin-bottom: 100px;
 }
 .ux-design {
     width: 100%;
@@ -485,9 +490,25 @@ body {
     line-height: 43px;
     letter-spacing: 0.0155em;
     color: var(--txt-title);
+    margin-bottom: 52px;
+    margin-top: 22px;
+}
+.web-text h2 {
+    margin-top: 42px;
+    margin-bottom: 0px;
 }
 .web-text {
     width: 505px;
+}
+.web-text p:nth-of-type(2n+2), .web-text p:nth-of-type(2n+1) {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--p-text);
 }
 .web-text-title {
     font-family: 'Rubik', sans-serif;   
@@ -499,15 +520,15 @@ body {
     text-align: left;
     color: var(--p-text);
     margin-bottom: 29px;
-    margin-top: 48px;
     color: var(--txt-title);
+    margin-top: 42px;
 }
 .web-hero {
     width: 572px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .web-hero img {
     width: 551px;
