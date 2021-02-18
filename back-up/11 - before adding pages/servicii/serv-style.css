@@ -177,9 +177,7 @@ header {
     display: flex;
     z-index: 2;
 }
-.servNavItem {
-    border-bottom: 3px solid var(--green);
-}
+
 /*------------------------*/
 /*----- MAIN CONTENT -----*/
 /*------------------------*/

@@ -233,7 +233,7 @@ header {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.389vw;
     line-height: 1.6678vw;
     letter-spacing: 0.05em;
@@ -367,7 +367,6 @@ h3 {
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
     font-size: 1.389vw;
-    font-weight: 300;
     line-height: 1.6678vw;
     letter-spacing: 0.05em;
     color: #FFFFFF;
@@ -437,7 +436,7 @@ h3 {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 1;
     font-size: 1.389vw;
     line-height:1.6678vw;
     letter-spacing: 0.01em;
@@ -493,7 +492,7 @@ h3 {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 1;
     font-size: 1.389vw;
     line-height:1.6678vw;
     letter-spacing: 0.01em;
@@ -711,7 +710,7 @@ body {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     font-style: normal;
     line-height: 24px;
@@ -851,7 +850,6 @@ h3 {
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    font-weight: 300;
     line-height: 24px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
@@ -921,7 +919,7 @@ h3 {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 1;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.01em;
@@ -976,7 +974,7 @@ h3 {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 1;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.01em;

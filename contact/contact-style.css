@@ -177,7 +177,7 @@ header {
     display: flex;
     z-index: 2;
 }
-.servNavItem {
+.contactNavItem {
     border-bottom: 3px solid var(--green);
 }
 /*------------------------*/
@@ -185,13 +185,13 @@ header {
 /*------------------------*/
 
 
-/*----- SERVICES PAGE -----*/
+/*----- CONTACT PAGE -----*/
 
-.servpage {
+.contactpage {
     width: 80%;
     margin: auto;
 }
-.ux-design p {
+p {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -343,7 +343,7 @@ body {
     display: flex;
     z-index: 2;
 }
-.servNavItem {
+.contactNavItem {
     border-bottom: 3px solid var(--green);
 }
 
@@ -354,11 +354,11 @@ body {
 
 /*----- SERVIICES PAGE -----*/
 
-.servpage {
+.contactpage {
     width: 80%;
     margin: auto;
 }
-.ux-design p {
+p {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -368,7 +368,7 @@ body {
     text-align: left;
     color: var(--p-text);
 }
-.ux-design h2 {
+h2 {
     font-family: 'Bree Serif', serif;
     font-size: 36px;
     font-style: normal;
