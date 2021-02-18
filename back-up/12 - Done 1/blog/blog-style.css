@@ -428,8 +428,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center; 
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: ;
 }
 .art-title {
     font-family: 'Rubik', sans-serif;   
@@ -444,11 +443,7 @@ h2 {
     color: var(--txt-title);
     margin-top: 42px;
 }
-.indent {
-    margin-left: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+
 /*----- FOOTER -----*/
 .footBar {
     max-width: 100%;
