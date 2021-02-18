@@ -307,6 +307,7 @@ h3 {
     margin-top: 4.725vw;
 }
 .team_codi_text {
+    margin-top: 1.1118vw;
     max-width: 37.317vw;
 }
 .team_codi_text h2 {
@@ -348,7 +349,7 @@ h3 {
     grid-template-rows: repeat(2, 1fr);
     justify-items: center;
     height: 6.393vw;
-    row-gap: 0.625vw;
+    row-gap: 0vw;
 }
 .team-algorithm {
     font-size: 1.0423vw;
@@ -357,7 +358,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 2.2237vw;
-    margin-bottom:3.127vw;
+    margin-bottom: 2.85vw;
 }
 .cta-team {
     width: 12.161vw;
@@ -374,7 +375,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2.0847vw;
+    margin-top: 2.3627vw;
     border-radius: 2px;
 }
 .equal img {
@@ -789,9 +790,7 @@ h3 {
     margin-top: 68px;
 }
 .team_codi_text {
-    max-width: 537px;
-}
-.team_codi_text {
+    margin-top: 16px;
     max-width: 537px;
 }
 .team_codi h2 {
@@ -832,7 +831,7 @@ h3 {
     grid-template-rows: repeat(2, 1fr);
     justify-items: center;
     height: 92px;
-    row-gap: 9px;
+    row-gap: 0px;
 }
 .team-algorithm {
     font-size: 15px;
@@ -840,8 +839,8 @@ h3 {
     align-items: baseline;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 32px;
-    margin-bottom: 45px;
+    margin-top: 34px;
+    margin-bottom: 41px;
 }
 .cta-team {
     width: 175px;
@@ -858,7 +857,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 34px;
     border-radius: 2px;
 }
 .equal img {

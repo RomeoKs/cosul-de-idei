@@ -178,7 +178,7 @@ header {
     z-index: 2;
 }
 .contactNavItem {
-    border-bottom: 3px solid var(--green);
+    border-bottom: 0.2084vw solid var(--green);
 }
 /*------------------------*/
 /*----- MAIN CONTENT -----*/
