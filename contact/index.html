@@ -36,7 +36,35 @@
     <main>
         
         <div class="contactpage"> <!-- Start of CONTENT -->
-            
+            <div class="contact_wrap">
+                <div class="contact_form">
+                    <!-- <div class="required">* - Required fields!</div> -->
+                    <h2>Trimite-ne un <span class="red">mesaj</span></h2>
+                    <form action="mail.php" method="POST">
+                            <div class="name_contact">
+                                <label for="fullname">Numele tău</label>
+                                <input type="text" id="name" title="Numele tău" required name="fullName" placeholder="Exemplu: Marian Popescu">
+                            </div>
+
+
+                            <div class="email_contact">
+                                <label for="email">Adresa ta de email</label>
+                                <input type="email" id="email"  required name="email" placeholder="Exemplu: marian@email.ro">
+                            </div>
+                            
+                        <div class="message_contact">
+                            <label for="message">Mesajul tău</label><br>
+                            <textarea maxlength="500" name="message" id="message" cols="30" rows="5" required placeholder="Exemplu: Salut, doresc mai multe detalii despre Experiența Utilizatorului"></textarea><br>
+                        </div>
+                        <div class="submit_message">    
+                            <input type="submit" name="submit" value="Trimite mesaj">
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <img src="../images/contact.svg" title="Contactează-ne" alt="Trimite-ne un mesaj">
+                </div>
+            </div>
         </div>    
     </main>
     <footer>

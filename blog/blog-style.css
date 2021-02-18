@@ -10,6 +10,8 @@
     --p-text: #1B414C;
     --txt-footer: #466770;
     --codi-footer: #7FA082;
+    --txt-title: #466770;
+    --txt-normal: #1B414C;
 
 }
 /* || CSS reset */
@@ -117,7 +119,7 @@ h1, h2 {
     color: var(--dark-green);
 }
 .bold {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 
@@ -360,25 +362,88 @@ body {
 }
 p {
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 26px;
-    letter-spacing: 0.01em;
+    font-weight: 1;
+    line-height: 19px;
+    letter-spacing: 0.02em;
     text-align: left;
-    color: var(--p-text);
+    color: var(--txt-footer);
 }
 h2 {
     font-family: 'Bree Serif', serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
-    line-height: 43px;
+    line-height: 49px;
     letter-spacing: 0.02em;
+    margin-bottom: 6px;
 }
 .red {
     color: var(--red);
 }
+
+.blog-art-gand {
+    width: 504px;
+}
+.blog-image img {
+    width: 597px;
+}
+.blog-top-wrap {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+.blog-art-gand p:nth-of-type(2n+2), .blog-art-gand p:nth-of-type(2n+1) {
+    margin-bottom: 10px;
+}
+
+.articol-gand p:nth-of-type(2n+2), .articol-gand p:nth-of-type(2n+1) {
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 1;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--txt-footer);
+}
+.articol-gand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.blog-image-2 img {
+    width: 505px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.blog-image-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: ;
+}
+.art-title {
+    font-family: 'Rubik', sans-serif;   
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--p-text);
+    margin-bottom: 29px;
+    color: var(--txt-title);
+    margin-top: 42px;
+}
+
 /*----- FOOTER -----*/
 .footBar {
     max-width: 100%;
