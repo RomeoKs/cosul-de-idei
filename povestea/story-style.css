@@ -202,16 +202,17 @@ p {
     color: var(--p-text);
 }
 .work img {
-    width: 590px;
+    width: 41vw;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .work {
     width: 100%;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 9.7289vw;
+    margin-bottom: 3.47vw;
+    display: flex;
+    align-items: center;
 }
 
 /*----- FOOTER -----*/
@@ -391,15 +392,15 @@ h2 {
     color: var(--red);
 }
 .work img {
-    width: 41vw;
+    width: 590px;
 }
 .work {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 6.949vw;
-    margin-bottom: 3.4746vw;
+    margin-top: 140px;
+    margin-bottom: 50px;
 }
 /*----- FOOTER -----*/
 .footBar {

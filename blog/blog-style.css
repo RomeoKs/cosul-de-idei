@@ -192,17 +192,98 @@ header {
 .blogpage {
     width: 80%;
     margin: auto;
+    margin-bottom: 7vw;
 }
 p {
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-size: 1.11vw;
     font-style: normal;
-    font-weight: 300;
-    line-height: 26px;
-    letter-spacing: 0.01em;
+    font-weight: 1;
+    line-height: 1.32vw;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--txt-footer);
+}
+h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.405vw;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.4169;
+}
+.red {
+    color: var(--red);
+}
+
+.blog-art-gand {
+    width: 28.14vw;
+}
+.blog-image img {
+    width: 41.48vw;
+}
+.blog-top-wrap {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 3.057vw;
+}
+.blog-art-gand p:nth-of-type(2n+2), .blog-art-gand p:nth-of-type(2n+1) {
+    margin-bottom: 0.6949vw;
+}
+
+.articol-gand p:nth-of-type(2n+2), .articol-gand p:nth-of-type(2n+1) {
+    margin-bottom: 0.6949vw;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3898vw;
+    font-style: normal;
+    font-weight: 1;
+    line-height: 1.667vw;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--txt-footer);
+}
+.articol-gand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.blog-image-2 img {
+    width: 35.09vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.blog-image-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 0.6949vw;
+    margin-bottom: 1.3898vw;
+}
+.art-title {
+    font-family: 'Rubik', sans-serif;   
+    font-size: 2.084vw;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 2.2932592077831826vw;
+    letter-spacing: 0.02em;
     text-align: left;
     color: var(--p-text);
+    margin-bottom: 29px;
+    color: var(--txt-title);
+    margin-top: 2.01528vw;
 }
+.indent {
+    margin-left: 5.559vw;
+    margin-top: 0.6949vw;
+    margin-bottom: 0.6949vw;
+}
+
 
 
 /*----- FOOTER -----*/
@@ -359,6 +440,7 @@ body {
 .blogpage {
     width: 80%;
     margin: auto;
+    margin-bottom: 100px;
 }
 p {
     font-family: 'Rubik', sans-serif;
