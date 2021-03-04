@@ -647,7 +647,7 @@ body {
     color: var(--txt-title);
 }
 
-..benefits-text-col1 p:nth-child(1) {
+.benefits-text-col1 p:nth-child(1) {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
