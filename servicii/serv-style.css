@@ -1,42 +1,3 @@
-/* rubik-300 - latin */
-@font-face {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 300;
-  src: url('../fonts/rubik-v12-latin-300.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/rubik-v12-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/rubik-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/rubik-v12-latin-300.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/rubik-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/rubik-v12-latin-300.svg#Rubik') format('svg'); /* Legacy iOS */
-}
-/* rubik-regular - latin */
-@font-face {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/rubik-v12-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/rubik-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/rubik-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/rubik-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/rubik-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/rubik-v12-latin-regular.svg#Rubik') format('svg'); /* Legacy iOS */
-}
-/* bree-serif-regular - latin-ext_latin */
-@font-face {
-  font-family: 'Bree Serif';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/bree-serif-v10-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/bree-serif-v10-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/bree-serif-v10-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/bree-serif-v10-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/bree-serif-v10-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/bree-serif-v10-latin-ext_latin-regular.svg#BreeSerif') format('svg'); /* Legacy iOS */
-}
 :root {
     --green: #1F5924;
     --light-green: #99E9A0;
@@ -122,21 +83,7 @@ body {
     height: 100%;
     /* opacity: 0.75; */
 }
-/* body::before {
-    content: "";
-    background-color: var(--bk);
-    background: url("./images/dot-grid.png");
-    background-repeat: repeat;
-    mix-blend-mode: normal;
-    z-index: -1;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.75;
-} */
+
 
 li {
 	list-style-type: none;
@@ -158,7 +105,7 @@ h1, h2 {
     color: var(--dark-green);
 }
 .bold {
-    font-weight: bold;
+    font-weight: 500;
 }
 p {
     color: var(--txt-normal);
@@ -255,7 +202,7 @@ header {
     font-family: 'Rubik', sans-serif;
     font-size: 1.389vw;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.8vw;
     letter-spacing: 0.01em;
     text-align: left;
@@ -266,7 +213,6 @@ header {
     font-family: 'Bree Serif', serif;
     font-size: 2.5vw;
     font-style: normal;
-    font-weight: 400;
     line-height: 3vw;
     letter-spacing: 0.02em;
     margin-top: 3.127vw;
@@ -282,7 +228,7 @@ header {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.3898vw;
     font-style: normal;
     line-height: 1.6678vw;
@@ -301,7 +247,7 @@ header {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.3898vw;
     font-style: bold;
     line-height: 1.6678vw;
@@ -323,7 +269,7 @@ header {
     font-family: 'Rubik', sans-serif;   
     font-size: 1.9457956914523975vw;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 2.2932592077831826vw;
     letter-spacing: 0.02em;
     text-align: left;
@@ -336,7 +282,7 @@ header {
     font-family: 'Rubik', sans-serif;
     font-size: 1.389vw;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.6678248783877692vw;
     letter-spacing: 0.01em;
     text-align: left;
@@ -348,6 +294,10 @@ header {
     grid-template-columns: 36.1362vw 36.1362vw;
     column-gap: 7.64vw;
 }
+.benefits-text img {
+    width: 79.36vw;
+    position: absolute;
+}
 .t5 {
     margin-top: 6.671299513551077vw;
 }
@@ -358,7 +308,6 @@ header {
 .web-dev-seo h2 {
     font-size: 2.5vw;
     font-style: normal;
-    font-weight: 400;
     line-height: 2.988vw;
     letter-spacing: 0.0155em;
     color: var(--txt-title);
@@ -376,7 +325,7 @@ header {
     font-family: 'Rubik', sans-serif;
     font-size: 1.389854065323141vw;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.389854065323141vw;
     letter-spacing: 0.01em;
     text-align: left;
@@ -386,7 +335,7 @@ header {
     font-family: 'Rubik', sans-serif;   
     font-size: 1.94579vw;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 2.29vw;
     letter-spacing: 0.02em;
     text-align: left;
@@ -418,7 +367,7 @@ header {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.3898vw;
     font-style: normal;
     line-height: 1.6678vw;
@@ -437,7 +386,7 @@ header {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.3898vw;
     font-style: bold;
     line-height: 1.6678vw;
@@ -464,7 +413,7 @@ header {
     justify-content: space-between;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
-    font-weight: 1;
+    font-weight: 400;
     font-size: 1.042vw;
     
     text-align: left;
@@ -476,6 +425,7 @@ header {
 }
 h4 {
     font-size: 1.389vw;
+    font-weight: 400;
     color: var(--ttl-footer);
     margin-bottom: 1.042vw;
     margin-top: 1.459vw;
@@ -563,7 +513,6 @@ body {
     width: 50.5%;  
 	font-family: 'Bree Serif', serif;
     font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 27px;
 }
@@ -624,7 +573,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.01em;
     text-align: left;
@@ -635,11 +584,9 @@ body {
     font-family: 'Bree Serif', serif;
     font-size: 36px;
     font-style: normal;
-    font-weight: 400;
     line-height: 43.2px;
     letter-spacing: 0.02em;
-    margin-top: 45px;
-    margin-bottom: 48px;
+    margin-top: 40px;
 }
 .hero-ux-project img {
     width: 520px;
@@ -651,7 +598,7 @@ body {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     font-style: normal;
     line-height: 24px;
@@ -670,7 +617,7 @@ body {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 20px;
     font-style: bold;
     line-height: 24px;
@@ -692,34 +639,65 @@ body {
     font-family: 'Rubik', sans-serif;   
     font-size: 28px;
     font-style: normal;
-    font-weight: normal;
-    line-height: 33px;
+    font-weight: 400;
+    line-height: 34px;
     letter-spacing: 0.02em;
     text-align: left;
     color: var(--p-text);
-    margin-bottom: 29px;
-    margin-top: 48px;
     color: var(--txt-title);
 }
-.benefits-text p:nth-of-type(2n+2), .benefits-text p:nth-of-type(2n+1) {
+
+..benefits-text-col1 p:nth-child(1) {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--p-text);
+    margin-bottom: 23.5px;
+}
+.benefits-text-col2 p:nth-child(2)  {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.01em;
     text-align: left;
     color: var(--p-text);
-    margin-bottom: 24px;
+    margin-bottom: 23.5px;
 }
+
 .benefits-text {
     display: grid;
-    grid-template-columns: 520px 520px;
-    column-gap: 110px;
+    grid-template-columns: 497px 500px;
+    column-gap: 150px;
+}
+.benefits-text img {
+    width: 1142px;
+    position: absolute;
+    top: 1065px;
+}
+.t1 {
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+.t2 {
+    margin-top: 47px;
+    margin-bottom: 20px;
+}
+}
+.t4 {
+    margin-top: 25px;
+    margin-bottom: 22px;
 }
 .t5 {
     margin-top: 96px;
+    margin-bottom: 23px;
 }
+
 .t6 {
     margin-top: 129px;
 }
@@ -745,7 +723,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.01em;
     text-align: left;
@@ -755,7 +733,7 @@ body {
     font-family: 'Rubik', sans-serif;   
     font-size: 28px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.02em;
     text-align: left;
@@ -787,7 +765,7 @@ body {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     font-style: normal;
     line-height: 24px;
@@ -806,7 +784,7 @@ body {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 20px;
     font-style: bold;
     line-height: 24px;
@@ -832,7 +810,7 @@ body {
     justify-content: space-between;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
-    font-weight: 1;
+    font-weight: 400;
     font-size: 15px;
     
     text-align: left;
@@ -847,7 +825,7 @@ h4 {
     color: var(--ttl-footer);
     margin-bottom: 15px;
     margin-top: 21px;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 /* .footBlog {
