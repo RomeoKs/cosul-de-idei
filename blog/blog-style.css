@@ -41,7 +41,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ul,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -56,6 +56,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
     text-decoration: none;
     color: inherit;
+}
+* {
+    font-feature-settings: 'liga' 0;
 }
 a {
     text-decoration: none;
@@ -83,25 +86,7 @@ body {
     height: 100%;
     /* opacity: 0.75; */
 }
-/* body::before {
-    content: "";
-    background-color: var(--bk);
-    background: url("./images/dot-grid.png");
-    background-repeat: repeat;
-    mix-blend-mode: normal;
-    z-index: -1;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.75;
-} */
 
-li {
-	list-style-type: none;
-}
 ul {
 	padding-left: 0px;
 }
@@ -121,7 +106,9 @@ h1, h2 {
 .bold {
     font-weight: 500;
 }
-
+.unbold {
+    font-weight: 400;
+}
 
 /* 		===================================
 			  START OF MEDIA QUERIES*
@@ -137,6 +124,9 @@ h1, h2 {
 /* || NAVIGATION */
 header {
     margin-bottom: 8.33vw;
+}
+header li {
+    list-style-type: none;
 }
 .logo img {
     width: 16.08vw;
@@ -198,7 +188,7 @@ p {
     font-family: 'Rubik', sans-serif;
     font-size: 1.11vw;
     font-style: normal;
-    font-weight: 1;
+    font-weight: 400;
     line-height: 1.32vw;
     letter-spacing: 0.02em;
     text-align: left;
@@ -239,7 +229,7 @@ h2 {
     font-family: 'Rubik', sans-serif;
     font-size: 1.3898vw;
     font-style: normal;
-    font-weight: 1;
+    font-weight: 400;
     line-height: 1.667vw;
     letter-spacing: 0.02em;
     text-align: left;
@@ -269,7 +259,7 @@ h2 {
     font-family: 'Rubik', sans-serif;   
     font-size: 2.084vw;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 2.2932592077831826vw;
     letter-spacing: 0.02em;
     text-align: left;
@@ -301,7 +291,7 @@ h2 {
     justify-content: space-between;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
-    font-weight: 1;
+    font-weight: 400;
     font-size: 1.042vw;
     
     text-align: left;
@@ -379,6 +369,9 @@ h4 {
 header {
     margin-bottom: 120px;
 }
+header li {
+    list-style-type: none;
+}
 main {
     max-width: 1440px;
     margin: auto;
@@ -446,20 +439,20 @@ p {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 1;
+    font-weight: 400;
     line-height: 19px;
     letter-spacing: 0.02em;
     text-align: left;
     color: var(--txt-footer);
 }
 h2 {
-    font-family: 'Bree Serif', serif;
+    font-family: Bree Serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: 49px;
     letter-spacing: 0.02em;
-    margin-bottom: 6px;
+    text-align: left;
 }
 .red {
     color: var(--red);
@@ -467,27 +460,32 @@ h2 {
 
 .blog-art-gand {
     width: 504px;
+    margin-top: 110px;
+    margin-left: 8px;
 }
 .blog-image img {
     width: 597px;
+    margin-top: 20px;
+    transform: translateX(28px);
 }
 .blog-top-wrap {
     width: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
-    margin-bottom: 44px;
+    margin-bottom: 19px;
 }
 .blog-art-gand p:nth-of-type(2n+2), .blog-art-gand p:nth-of-type(2n+1) {
     margin-bottom: 10px;
+    margin-top: 7px;
 }
 
 .articol-gand p:nth-of-type(2n+2), .articol-gand p:nth-of-type(2n+1) {
-    margin-bottom: 10px;
+    margin-bottom: 24px;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 1;
+    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
@@ -505,6 +503,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center; 
+    margin-bottom: 30px;
 }
 .blog-image-2 {
     display: flex;
@@ -517,19 +516,27 @@ h2 {
     font-family: 'Rubik', sans-serif;   
     font-size: 30px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.02em;
     text-align: left;
     color: var(--p-text);
-    margin-bottom: 29px;
+    margin-bottom: 20px;
     color: var(--txt-title);
-    margin-top: 42px;
+    margin-top: -7px;
 }
 .indent {
     margin-left: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: -24px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--txt-footer);
+    list-style-type: decimal;
 }
 /*----- FOOTER -----*/
 .footBar {
@@ -546,7 +553,7 @@ h2 {
     justify-content: space-between;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
-    font-weight: 1;
+    font-weight: 400;
     font-size: 15px;
     
     text-align: left;
@@ -573,6 +580,9 @@ h4 {
     flex-direction: column;
     align-items: baseline;
     justify-content: space-between;
+}
+footer li {
+    list-style-type: none;
 }
 .icon-email img {
     width: 19px;

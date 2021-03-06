@@ -58,6 +58,9 @@ a {
     text-decoration: none;
     line-height: 0;
 }
+* {
+    font-variant-ligatures: none;
+}
 *, *:before, *:after {
     box-sizing: border-box;
 }
