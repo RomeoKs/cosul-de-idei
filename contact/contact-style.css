@@ -125,12 +125,9 @@ h1, h2 {
 			  START OF MEDIA QUERIES*
         ==================================
 */
-/* /
-/* 		========================
-	      MAX to DESKTOP 1440px
-        ========================
-*/
-@media (max-width:1439px) {
+/* */
+
+@media (min-width:1349px) and (max-width:1439px) {
 
 /* || NAVIGATION */
 header {
@@ -184,36 +181,32 @@ header {
 /*----- MAIN CONTENT -----*/
 /*------------------------*/
 
-
 /*----- CONTACT PAGE -----*/
 
 .contactpage {
     width: 80%;
+    height: 620px;
     margin: auto;
-}
-.blogpage {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 7vw;
 }
 p {
     font-family: 'Rubik', sans-serif;
-    font-size: 1.11vw;
+    font-size: 1.389854065323141vw;
     font-style: normal;
-    font-weight: 1;
-    line-height: 1.32vw;
-    letter-spacing: 0.02em;
+    font-weight: 400;
+    line-height: 1.8068102849200833vw;
+    letter-spacing: 0.01em;
     text-align: left;
-    color: var(--txt-footer);
+    color: var(--p-text);
 }
 h2 {
     font-family: 'Bree Serif', serif;
-    font-size: 2.5vw;
+    font-size: 2.501737317581654vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 3.405vw;
+    line-height: 2.9881862404447532vw;
     letter-spacing: 0.02em;
-    margin-bottom: 0.4169;
+    margin-bottom: 2.1542738012508686vw;
+    margin-top: 0.4864489228630994vw;
 }
 .red {
     color: var(--red);
@@ -224,54 +217,52 @@ h2 {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 5.559vw;
-    margin-bottom: 5.559vw;
+    margin-top: 5.559416261292564vw;
+    margin-bottom: 3.4746351633078527vw;
 }
 .contact_wrap img {
-    width: 34.05vw;
+    width: 34.05142460041696vw;
 }
-
-
 .contact_form {
-    width: 42.39vw;
+    width: 42.390548992355804vw;
 }
-
-
 input[type=text], input[type=email], 
 input[type=phone], textarea {
     font-family: 'Rubik', sans-serif;
-    font-size: 1.3898vw;
+    font-size: 1.389854065323141vw;
     font-style: normal;
-    font-weight: 1;
-    line-height: 2.293vw;
+    font-weight: 400;
+    line-height:2.2932592077831826vw;
     letter-spacing: 0.01em;
     text-align: left;
     background-color: var(--white);
     width: 100%;
     border-radius: 2px;
+    color: var(--txt-footer);
     border: 1px solid #466770;
-    padding: 1.3898vw;
+    padding: 1.389854065323141vw;
 }
 textarea::placeholder {
     font-family: 'Rubik', sans-serif;
-    font-size: 1.3898vw;
+    font-size: 1.389854065323141vw;
     font-style: normal;
     font-weight: 300;
-    line-height: 1.667vw;
+    line-height: 1.6678248783877692vw;
     letter-spacing: 0.01em;
     text-align: left;
     padding: 2px;
 }
 input[type=text], input[type=email], 
 input[type=phone] {
-    height: 2.22vw;
+    height: 2.223766504517026vw;
+    margin-bottom: 1.389854065323141vw;
 }
 label {
     font-family: 'Rubik', sans-serif;
-    font-size: 1.94579vw;
+    font-size: 1.6678248783877692vw;
     font-style: normal;
-    font-weight: normal;
-    line-height: 2.293vw;
+    font-weight: 400;
+    line-height: 1.97359277275886vw;
     letter-spacing: 0.01em;
     text-align: left;
     color: var(--p-text);
@@ -280,84 +271,59 @@ input[type=text]:focus, input[type=email]:focus,
 input[type=phone]:focus, textarea:focus {
     background-color: var(--gray-light);
 }
-
-
 form {
     margin: auto;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 47% 47%;
-    column-gap: 6%;
-    row-gap: 1.04239vw;
-    grid-template-areas: 
-    "fl1 fl1"
-    "fl2 fl2"
-    "m m"
-    "m m"
-    "s s";
 }
-.name_contact {
-    grid-area: fl1;
-}
-.email_contact {
-    grid-area: fl2;
-}
-
 .message_contact {
-    grid-area: m;
     width: 100%;
 }
 .submit_message {
-    grid-area: s;
     width: 100%;
 }
 input[type=submit] {
     border: none;
-    width: 11.1188vw;
-    height: 2.9186vw;
+    width: 11.118832522585128vw;
+    height: 2.9186935371785965vw;
     background-color: var(--green);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-    font-size: 1.3898vw;
+    font-weight: 400;
+    font-size: 1.389854065323141vw;
     font-style: normal;
-    line-height: 1.667vw;
+    line-height: 1.6678248783877692vw;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1.5983vw;
+    margin-top: 1.250868658790827vw;
     border-radius: 2px;
 }
 input[type=submit]:hover  {
-    border: none;
-    width: 11.1188vw;
-    height: 2.9186vw;
+    width: 11.118832522585128vw;
+    height: 2.9186935371785965vw;
     background-color: var(--green);
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-    font-size: 1.3898vw;
+    font-weight: 500;
+    font-size: 1.389854065323141vw;
     font-style: bold;
-    line-height: 1.667vw;
+    line-height: 1.6678248783877692vw;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1.5983vw;
     border-radius: 2px;
 }
 
 
-
-
-
-
 /*----- FOOTER -----*/
+footer {
+    width: 100%;
+}
 .footBar {
     max-width: 100%;
     height: 12.508vw;
@@ -374,7 +340,287 @@ input[type=submit]:hover  {
     font-style: normal;
     font-weight: 1;
     font-size: 1.042vw;
+    text-align: left;
+    letter-spacing: 0.01em; 
+    color: var(--txt-footer);
+}
+.footContent li {
+    line-height: 2.432vw;
+}
+h4 {
+    font-size: 1.389vw;
+    color: var(--ttl-footer);
+    margin-bottom: 1.042vw;
+    margin-top: 1.459vw;
+    font-weight: normal;
+}
+
+.footContact {
+    height: 5.559vw;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.icon-email img {
+    width: 1.32vw;
+    margin-right: 0.486vw;
+    transform: translateY(0.208vw);
+}
+.icon-fb img {
+    width: 0.588vw;/*8.47px;*/
+    margin-right: 1.18vw;
+    transform: translate(0.347vw, 0.208vw);
+}
+.icon-link img {
+    width: 1.0423vw; /*15px*/
+    margin-right: 0.764vw;
+    transform: translate(1px, 0px);
+}
+.icon-termeni img {
+    width: 1.389vw;
+    margin-right: 0.486vw;
+    transform: translateY(2px);
+}
+.icon-anpc img {
+    width: 1.1118vw;
+    margin-right: 0.6949vw;
+    transform: translateY(0.277vw);
+}
+.footCodi {
+    color: var(--codi-footer);
+    text-align: right;
+    margin-top: 1.528vw;
+}
+.footCodi li {
+    line-height: 1.73vw;
+}
+.logo-footer-codi img  {
+    width: 16.539vw;
     
+}
+}
+
+/* 		========================
+	      MAX to DESKTOP 1440px
+        ========================
+*/
+@media (max-width:1349px) {
+
+/* || NAVIGATION */
+header {
+    margin-bottom: 8.33vw;
+}
+.logo img {
+    width: 16.08vw;
+    display: flex;
+    margin-top: 0.694vw;
+}
+.navMenu a {
+	text-decoration: none;
+	color: var(--green);
+}
+
+.navMenu { 
+    width: 39.957vw; /*50.5%*/ 
+	font-family: 'Bree Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:  1.64vw;
+    line-height: 2.21vw;  
+}
+.navMenu ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navElements {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.navBar {
+    width: 100%;
+    height: 6.25vw;
+    position: fixed;
+	/* position: -webkit-sticky; */
+    top: 0;
+    background: var(--bk-menu);
+    box-shadow: 0px 2px 0.5559vw rgba(0, 0, 0, 0.14);
+    display: flex;
+    z-index: 2;
+}
+.contactNavItem {
+    border-bottom: 0.2084vw solid var(--green);
+}
+/*------------------------*/
+/*----- MAIN CONTENT -----*/
+/*------------------------*/
+
+/*----- CONTACT PAGE -----*/
+
+.contactpage {
+    width: 80%;
+    max-height: 100vh;
+    margin: auto;
+}
+p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.389854065323141vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8068102849200833vw;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--p-text);
+}
+h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.501737317581654vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.9881862404447532vw;
+    letter-spacing: 0.02em;
+    margin-bottom: 2.1542738012508686vw;
+    margin-top: 0.4864489228630994vw;
+}
+.red {
+    color: var(--red);
+}
+.contact_wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5.559416261292564vw;
+    margin-bottom: 3.4746351633078527vw;
+}
+.contact_wrap img {
+    width: 34.05142460041696vw;
+}
+.contact_form {
+    width: 42.390548992355804vw;
+}
+input[type=text], input[type=email], 
+input[type=phone], textarea {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.389854065323141vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height:2.2932592077831826vw;
+    letter-spacing: 0.01em;
+    text-align: left;
+    background-color: var(--white);
+    width: 100%;
+    border-radius: 2px;
+    color: var(--txt-footer);
+    border: 1px solid #466770;
+    padding: 1.389854065323141vw;
+}
+textarea::placeholder {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.389854065323141vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6678248783877692vw;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding: 2px;
+}
+input[type=text], input[type=email], 
+input[type=phone] {
+    height: 2.223766504517026vw;
+    margin-bottom: 1.389854065323141vw;
+}
+label {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6678248783877692vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.97359277275886vw;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--p-text);
+}
+input[type=text]:focus, input[type=email]:focus, 
+input[type=phone]:focus, textarea:focus {
+    background-color: var(--gray-light);
+}
+form {
+    margin: auto;
+}
+.message_contact {
+    width: 100%;
+}
+.submit_message {
+    width: 100%;
+}
+input[type=submit] {
+    border: none;
+    width: 11.118832522585128vw;
+    height: 2.9186935371785965vw;
+    background-color: var(--green);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1.389854065323141vw;
+    font-style: normal;
+    line-height: 1.6678248783877692vw;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.250868658790827vw;
+    border-radius: 2px;
+}
+input[type=submit]:hover  {
+    width: 11.118832522585128vw;
+    height: 2.9186935371785965vw;
+    background-color: var(--green);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.389854065323141vw;
+    font-style: bold;
+    line-height: 1.6678248783877692vw;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+
+/*----- FOOTER -----*/
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.footBar {
+    max-width: 100%;
+    height: 12.508vw;
+    background: var(--bk-footer);
+    box-shadow: 0px -2px 0.5559vw rgba(0, 0, 0, 0.14);
+    display: flex;
+}
+.footContent {
+    width: 80.1945vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 1;
+    font-size: 1.042vw;
     text-align: left;
     letter-spacing: 0.01em; 
     color: var(--txt-footer);
@@ -506,7 +752,7 @@ body {
 /*------------------------*/
 
 
-/*----- SERVIICES PAGE -----*/
+/*----- CONTACT PAGE -----*/
 
 .contactpage {
     width: 80%;
@@ -516,7 +762,7 @@ p {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.01em;
     text-align: left;
@@ -530,6 +776,7 @@ h2 {
     line-height: 43px;
     letter-spacing: 0.02em;
     margin-bottom: 31px;
+    margin-top: 7px;
 }
 .red {
     color: var(--red);
@@ -541,30 +788,27 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .contact_wrap img {
     width: 490px;
 }
-
-
 .contact_form {
     width: 610px;
 }
-
-
 input[type=text], input[type=email], 
 input[type=phone], textarea {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 1;
+    font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.01em;
     text-align: left;
     background-color: var(--white);
     width: 100%;
     border-radius: 2px;
+    color: var(--txt-footer);
     border: 1px solid #466770;
     padding: 20px;
 }
@@ -580,14 +824,15 @@ textarea::placeholder {
 }
 input[type=text], input[type=email], 
 input[type=phone] {
-    height: 2rem;
+    height: 32px;
+    margin-bottom: 20px;
 }
 label {
     font-family: 'Rubik', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: normal;
-    line-height: 33px;
+    font-weight: 400;
+    line-height: 28.4px;
     letter-spacing: 0.01em;
     text-align: left;
     color: var(--p-text);
@@ -596,35 +841,13 @@ input[type=text]:focus, input[type=email]:focus,
 input[type=phone]:focus, textarea:focus {
     background-color: var(--gray-light);
 }
-
-
 form {
     margin: auto;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 47% 47%;
-    column-gap: 6%;
-    row-gap: 15px;
-    grid-template-areas: 
-    "fl1 fl1"
-    "fl2 fl2"
-    "m m"
-    "m m"
-    "s s";
 }
-.name_contact {
-    grid-area: fl1;
-}
-.email_contact {
-    grid-area: fl2;
-}
-
 .message_contact {
-    grid-area: m;
     width: 100%;
 }
 .submit_message {
-    grid-area: s;
     width: 100%;
 }
 input[type=submit] {
@@ -635,7 +858,7 @@ input[type=submit] {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     font-style: normal;
     line-height: 24px;
@@ -644,7 +867,7 @@ input[type=submit] {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 23px;
+    margin-top: 18px;
     border-radius: 2px;
 }
 input[type=submit]:hover  {
@@ -654,7 +877,7 @@ input[type=submit]:hover  {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 20px;
     font-style: bold;
     line-height: 24px;
@@ -663,13 +886,18 @@ input[type=submit]:hover  {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 23px;
     border-radius: 2px;
 }
 
 
 
 /*----- FOOTER -----*/
+/* footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
 .footBar {
     max-width: 100%;
     height: 180px;
