@@ -252,24 +252,6 @@ textarea::placeholder {
     text-align: left;
     padding: 2px;
 }
-input:focus::placeholder {
-    opacity: 0.4;
-}
-textarea:focus::placeholder {
-    opacity: 0.4;
-}
-input:focus:invalid {
-    background: url('../images/icon-warning.svg');
-    background-size: 1.389854065323141vw;
-    background-repeat: no-repeat;
-    background-position:40.305767894371094vw;
-}
-input:required:focus:valid {
-    background: url('../images/icon-check.svg');
-    background-size: 1.389854065323141vw;
-    background-repeat: no-repeat;
-    background-position: 40.305767894371094vw ;
-}
 input[type=text], input[type=email], 
 input[type=phone] {
     height: 2.223766504517026vw;
@@ -287,10 +269,7 @@ label {
 }
 input[type=text]:focus, input[type=email]:focus, 
 input[type=phone]:focus, textarea:focus {
-    background-color: #FFFCE3;
-}
-input:focus, select:focus, textarea:focus, form:focus, button:focus {
-    outline: 0;
+    background-color: var(--gray-light);
 }
 form {
     margin: auto;
@@ -423,7 +402,7 @@ h4 {
 }
 
 /* 		========================
-	      MAX to DESKTOP 1350px
+	      MAX to DESKTOP 1440px
         ========================
 */
 @media (max-width:1349px) {
@@ -566,45 +545,9 @@ label {
     text-align: left;
     color: var(--p-text);
 }
-input:focus::placeholder {
-    opacity: 0.4;
-}
-textarea:focus::placeholder {
-    opacity: 0.4;
-}
-input:focus:invalid {
-    background: url('../images/icon-warning.svg');
-    background-size: 1.389854065323141vw;
-    background-repeat: no-repeat;
-    background-position:40.305767894371094vw;
-}
-input:required:focus:valid {
-    background: url('../images/icon-check.svg');
-    background-size: 1.389854065323141vw;
-    background-repeat: no-repeat;
-    background-position: 40.305767894371094vw ;
-}
-input[type=text], input[type=email], 
-input[type=phone] {
-    height: 2.223766504517026vw;
-    margin-bottom: 1.389854065323141vw;
-}
-label {
-    font-family: 'Rubik', sans-serif;
-    font-size: 1.6678248783877692vw;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.97359277275886vw;
-    letter-spacing: 0.01em;
-    text-align: left;
-    color: var(--p-text);
-}
 input[type=text]:focus, input[type=email]:focus, 
 input[type=phone]:focus, textarea:focus {
-    background-color: #FFFCE3;
-}
-input:focus, select:focus, textarea:focus, form:focus, button:focus {
-    outline: 0;
+    background-color: var(--gray-light);
 }
 form {
     margin: auto;
@@ -879,28 +822,10 @@ textarea::placeholder {
     text-align: left;
     padding: 2px;
 }
-input:focus::placeholder {
-    opacity: 0.4;
-}
-textarea:focus::placeholder {
-    opacity: 0.4;
-}
 input[type=text], input[type=email], 
 input[type=phone] {
     height: 32px;
     margin-bottom: 20px;
-}
-input:focus:invalid {
-    background: url('../images/icon-warning.svg');
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: 580px ;
-}
-input:required:focus:valid {
-    background: url('../images/icon-check.svg');
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: 580px ;
 }
 label {
     font-family: 'Rubik', sans-serif;
@@ -914,7 +839,7 @@ label {
 }
 input[type=text]:focus, input[type=email]:focus, 
 input[type=phone]:focus, textarea:focus {
-    background-color: #FFFCE3;
+    background-color: var(--gray-light);
 }
 form {
     margin: auto;
@@ -963,9 +888,7 @@ input[type=submit]:hover  {
     justify-content: center;
     border-radius: 2px;
 }
-input:focus, select:focus, textarea:focus, form:focus, button:focus {
-    outline: 0;
-}
+
 
 
 /*----- FOOTER -----*/

@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: 
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: AdsBot-Google
+Disallow:
+
+User-agent: Googlebot-Image
+Disallow:
+
+
+User-agent: facebookexternalhit
+Allow: /images
+
+User-agent: Twitterbot
+Disallow:
+
+Allow: /images
+Allow: /archives

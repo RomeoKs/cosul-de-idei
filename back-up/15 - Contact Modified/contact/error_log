@@ -1,0 +1,19 @@
+[10-Mar-2021 08:12:38 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '.' in /home/cosuldei/public_html/contact/mail.php on line 47
+[10-Mar-2021 08:14:52 Europe/Bucharest] PHP Notice:  Undefined index: fullname in /home/cosuldei/public_html/contact/mail.php on line 5
+[10-Mar-2021 08:14:52 Europe/Bucharest] PHP Notice:  Undefined index: phone in /home/cosuldei/public_html/contact/mail.php on line 6
+[10-Mar-2021 08:14:52 Europe/Bucharest] PHP Warning:  mail() has been disabled for security reasons in /home/cosuldei/public_html/contact/mail.php on line 14
+[10-Mar-2021 08:14:52 Europe/Bucharest] PHP Warning:  mail() has been disabled for security reasons in /home/cosuldei/public_html/contact/mail.php on line 15
+[10-Mar-2021 08:14:52 Europe/Bucharest] PHP Notice:  Undefined index: fullname in /home/cosuldei/public_html/contact/mail.php on line 20
+[10-Mar-2021 08:14:52 Europe/Bucharest] PHP Notice:  Undefined index: phone in /home/cosuldei/public_html/contact/mail.php on line 22
+[10-Mar-2021 08:15:55 Europe/Bucharest] PHP Notice:  Undefined index: fullname in /home/cosuldei/public_html/contact/mail.php on line 5
+[10-Mar-2021 08:15:55 Europe/Bucharest] PHP Notice:  Undefined index: phone in /home/cosuldei/public_html/contact/mail.php on line 6
+[10-Mar-2021 08:15:55 Europe/Bucharest] PHP Warning:  mail() has been disabled for security reasons in /home/cosuldei/public_html/contact/mail.php on line 14
+[10-Mar-2021 08:15:55 Europe/Bucharest] PHP Warning:  mail() has been disabled for security reasons in /home/cosuldei/public_html/contact/mail.php on line 15
+[10-Mar-2021 08:15:55 Europe/Bucharest] PHP Notice:  Undefined index: fullname in /home/cosuldei/public_html/contact/mail.php on line 20
+[10-Mar-2021 08:15:55 Europe/Bucharest] PHP Notice:  Undefined index: phone in /home/cosuldei/public_html/contact/mail.php on line 22
+[10-Mar-2021 09:14:11 Europe/Bucharest] PHP Notice:  Undefined index: fullname in /home/cosuldei/public_html/contact/mail.php on line 5
+[10-Mar-2021 09:14:11 Europe/Bucharest] PHP Warning:  mail() has been disabled for security reasons in /home/cosuldei/public_html/contact/mail.php on line 14
+[10-Mar-2021 09:14:11 Europe/Bucharest] PHP Warning:  mail() has been disabled for security reasons in /home/cosuldei/public_html/contact/mail.php on line 15
+[10-Mar-2021 09:14:11 Europe/Bucharest] PHP Notice:  Undefined index: fullname in /home/cosuldei/public_html/contact/mail.php on line 20
+[10-Mar-2021 09:15:29 Europe/Bucharest] PHP Warning:  mail() has been disabled for security reasons in /home/cosuldei/public_html/contact/mail.php on line 14
+[10-Mar-2021 09:15:29 Europe/Bucharest] PHP Warning:  mail() has been disabled for security reasons in /home/cosuldei/public_html/contact/mail.php on line 15
